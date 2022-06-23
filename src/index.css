@@ -1,0 +1,47 @@
+@font-face {
+  font-family: WalsheimLight;
+  src: url(../public/fonts/GTWalsheimPro-Light.woff);
+}
+
+@font-face {
+  font-family: WalsheimRegular;
+  src: url(../public/fonts/GTWalsheimPro-Regular.woff);
+}
+
+@font-face {
+  font-family: WalsheimThin;
+  src: url(../public/fonts/GTWalsheimPro-Thin.woff);
+}
+body {
+  margin: 0;
+  font-family: websiteFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  font-family: WalsheimLight;
+  background-color: #121212;
+  color: #fff;
+}
+
+*::selection {
+  background: #fff01f;
+  color: #121212;
+}
+
+a {
+  color: black;
+}
+
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
+}
