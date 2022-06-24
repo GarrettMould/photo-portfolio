@@ -18,12 +18,12 @@ const Trip = (props) => {
   const mappedTrips = photos.map((trip, i) => {
     return (
       <>
-        <TimelineItem>
+        <TimelineItem key={i}>
           <TimelineOppositeContent sx={{width: 300, px: 4}}>
               
               <CameraTitle>{trip.cameraTitle}</CameraTitle>
               <FilmTitle>{trip.filmTitle}</FilmTitle>
-              <StyledLink><button><a href="#"><li>View Photos</li></a></button></StyledLink>
+              <StyledLink><button onClick={props.handleClick}><a href="#"><li id={i}>View Photos</li></a></button></StyledLink>
              
           </TimelineOppositeContent>
         <TimelineSeparator>

@@ -6,7 +6,7 @@ const StyledTimeline = (props) => {
   return (
     
     <Timeline position="alternate">
-        <Trip></Trip>
+        <Trip handleClick={props.handleClick}></Trip>
     </Timeline>
     
   );

@@ -10,9 +10,9 @@ import SelectedTripGallery from "../elements/SelectedTripGallery";
 const SelectedTrip = (props) => {
   return (
     <div>
-        <SelectedTripDetails></SelectedTripDetails>
-        <SelectedTripSummary></SelectedTripSummary>
-        <SelectedTripGallery></SelectedTripGallery>
+        <SelectedTripDetails destination={props.destination} dates={props.dates} camera={props.camera} film={props.film}></SelectedTripDetails>
+        <SelectedTripSummary summary={props.summary}></SelectedTripSummary>
+        <SelectedTripGallery photoGallery={props.photoGallery}></SelectedTripGallery>
       
     </div>
   );

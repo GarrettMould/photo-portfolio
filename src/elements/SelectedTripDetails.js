@@ -12,12 +12,12 @@ const SelectedTripDetails = (props) => {
     <StyledContainer>
         <FlexRowBetween>
             <SelectedTripDetailsContainer>
-                <SelectedTripTitle>Nha Trang & Singapore</SelectedTripTitle>
-                <SelectedTripDates>June 8th - June 14th</SelectedTripDates>
+                <SelectedTripTitle>{props.destination}</SelectedTripTitle>
+                <SelectedTripDates>{props.date}</SelectedTripDates>
             </SelectedTripDetailsContainer>
             <FlexRowBetween>
-                <Photo src={CanonAutoboy}></Photo>
-                <Photo src={FujiSuperia400}></Photo>
+                <Photo src={props.camera}></Photo>
+                <Photo src={props.film}></Photo>
             </FlexRowBetween>
         </FlexRowBetween>
         </StyledContainer>
