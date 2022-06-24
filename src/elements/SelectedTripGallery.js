@@ -1,16 +1,12 @@
 import { StyledContainer } from "../components/styles/Container.styles";
 
-import { photos } from "../Photos";
-
 import { GridContainer } from "../components/styles/Container.styles";
 
 import { GridPhoto, PhotoContainer} from "./styles/SelectedTripDetails.styled";
 
 
-
-const tripPhotos = photos[0].photos;
-
 const SelectedTripGallery = (props) => { 
+    const tripPhotos = props.photoGallery;
     const photoGrid = tripPhotos.map((photo, i) => { 
         return (
             <>
