@@ -65,6 +65,8 @@ export var photos = [
     id: 0,
     destination: "Nha Trang & Singapore",
     dates: "June 8th - June 15th",
+    cameraTitle: "Kyocera Zoomtec 80",
+    filmTitle: "Fuji Superia 400",
     camera: KyoceraZoomtec80,
     film: FujiSuperia400,
     photos: [
@@ -259,6 +261,8 @@ export var photos = [
     id: 1,
     destination: "Pu Luong",
     dates: "March 18th - March 20th",
+    cameraTitle: "Kyocera Zoomtec 80",
+    filmTitle: "Kodak Gold 200",
     camera: KyoceraZoomtec80,
     film: KodakGold200,
     photos: [
@@ -363,6 +367,8 @@ export var photos = [
     id: 2,
     destination: "Da Nang / Hoi An",
     dates: "February 2nd - February 5th",
+    cameraTitle: "Canon AutoBoy Luna XL",
+    filmTitle: "Kodak Gold 200",
     camera: CanonAutoboy,
     film: KodakGold200,
     photos: [
@@ -402,6 +408,8 @@ export var photos = [
     id: 3,
     destination: "Random Hanoi Photos",
     dates: "January 2022",
+    cameraTitle: "Canon AutoBoy Luna XL",
+    filmTitle: "Fuji Superia 400",
     camera: CanonAutoboy,
     film: FujiSuperia400,
     photos: [
