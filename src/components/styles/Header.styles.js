@@ -19,12 +19,26 @@ export const StyledNavBar = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  a { 
+    text-decoration: none;
+  }
+
   li {
     font-size: 60%;
     list-style: none;
   }
 
-  li:hover {
-    border-bottom: 2px solid #fff;
-  }
+  li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fff01f;
+    transition: width .3s;
+}
+
+    li:hover::after {
+      width: 100%;
+    }
 `;
+

@@ -12,16 +12,15 @@ export const TripDates = styled.div`
 
 
 export const CameraTitle = styled.div`
-  font-size: 150%;
-  padding-top: 3%;
-  
+  font-size: 200%;
+    
   span { 
     color: grey;
   }
 `;
 
 export const FilmTitle = styled.div`
-  font-size: 150%;
+  font-size: 200%;
   
   span { 
     color: grey;

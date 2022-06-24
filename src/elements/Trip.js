@@ -23,12 +23,12 @@ const Trip = (props) => {
               
               <CameraTitle>{trip.cameraTitle}</CameraTitle>
               <FilmTitle>{trip.filmTitle}</FilmTitle>
-              <StyledLink><a href="#"><span>View Photos</span></a></StyledLink>
+              <StyledLink><a href="#"><li>View Photos</li></a></StyledLink>
              
           </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{width: 30,
-          height: 30}}/>
+          height: 30, bgcolor: "#fff01f"}}/>
           <TimelineConnector  sx={{
           height: 300}} />
         </TimelineSeparator>
