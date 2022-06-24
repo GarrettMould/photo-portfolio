@@ -19,3 +19,10 @@ export const FlexColumn = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+export const FlexRowBetween = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`

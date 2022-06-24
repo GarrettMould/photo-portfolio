@@ -7,3 +7,9 @@ export const StyledContainer = styled.div`
   font-size: 200%;
   color: white;
 `;
+
+export const BasicContainer = styled.div`
+  max-width: 100%;
+  
+  
+`

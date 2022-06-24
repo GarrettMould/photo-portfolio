@@ -26,7 +26,4 @@ export const FilmTitle = styled.div`
     color: grey;
   }
 `
-export const Photo = styled.img`
-  max-width: 130px;
-  margin-left: 20px;
-`;
+
