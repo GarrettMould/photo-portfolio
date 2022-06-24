@@ -23,7 +23,7 @@ const Trip = (props) => {
               
               <CameraTitle>{trip.cameraTitle}</CameraTitle>
               <FilmTitle>{trip.filmTitle}</FilmTitle>
-              <StyledLink><a href="#"><li>View Photos</li></a></StyledLink>
+              <StyledLink><button><a href="#"><li>View Photos</li></a></button></StyledLink>
              
           </TimelineOppositeContent>
         <TimelineSeparator>

@@ -46,3 +46,8 @@ a:active {
   color: black;
   text-decoration: none;
 }
+
+button { 
+  outline: none; 
+  border: none;
+}
