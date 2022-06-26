@@ -1,17 +1,13 @@
-import {
-  nav,
-  logo,
-  StyledNav,
-  StyledLogo,
-  StyledNavBar,
-} from "./styles/Header.styles";
+import { StyledNav, StyledLogo, StyledNavBar } from "./styles/Header.styles";
 import { StyledContainer } from "./styles/Container.styles";
 
 const Header = (props) => {
   return (
     <StyledContainer>
       <StyledNav>
-        <StyledLogo>myPhotos</StyledLogo>
+        <button onClick={props.clearState}>
+          <StyledLogo>myPhotos</StyledLogo>
+        </button>
         <StyledNavBar>
           <a href="#">
             <li>cameras</li>

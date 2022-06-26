@@ -60,62 +60,62 @@ import NhaTrang35 from "../src/images/NhaTrang/R1-03344-0034.JPG";
 import NhaTrang36 from "../src/images/NhaTrang/R1-03344-0035.JPG";
 import NhaTrang37 from "../src/images/NhaTrang/R1-03344-0036.JPG";
 
-import DaNang1 from '../src/images/DaNang/000015.jpg'
-import DaNang2 from '../src/images/DaNang/000016.jpg'
-import DaNang3 from '../src/images/DaNang/000017.jpg'
-import DaNang4 from '../src/images/DaNang/000018.jpg'
-import DaNang5 from '../src/images/DaNang/000019.jpg'
-import DaNang6 from '../src/images/DaNang/000020.jpg'
-import DaNang7 from '../src/images/DaNang/000021.jpg'
-import DaNang8 from '../src/images/DaNang/000022.jpg'
-import DaNang9 from '../src/images/DaNang/000023.jpg'
-import DaNang10 from '../src/images/DaNang/000024.jpg'
-import DaNang11 from '../src/images/DaNang/000025.jpg'
-import DaNang12 from '../src/images/DaNang/000026.jpg'
-import DaNang13 from '../src/images/DaNang/000027.jpg'
-import DaNang14 from '../src/images/DaNang/000028.jpg'
-import DaNang15 from '../src/images/DaNang/000029.jpg'
-import DaNang16 from '../src/images/DaNang/000030.jpg'
-import DaNang17 from '../src/images/DaNang/000031.jpg'
-import DaNang18 from '../src/images/DaNang/000032.jpg'
-import DaNang19 from '../src/images/DaNang/000033.jpg'
-import DaNang20 from '../src/images/DaNang/000034.jpg'
-import DaNang21 from '../src/images/DaNang/000035.jpg'
-import DaNang22 from '../src/images/DaNang/000036.jpg'
-import DaNang23 from '../src/images/DaNang/000037.jpg'
-import DaNang24 from '../src/images/DaNang/000038.jpg'
-import DaNang25 from '../src/images/DaNang/000039.jpg'
-import DaNang26 from '../src/images/DaNang/000040.jpg'
-import DaNang27 from '../src/images/DaNang/000041.jpg'
+import DaNang1 from "../src/images/DaNang/000015.jpg";
+import DaNang2 from "../src/images/DaNang/000016.jpg";
+import DaNang3 from "../src/images/DaNang/000017.jpg";
+import DaNang4 from "../src/images/DaNang/000018.jpg";
+import DaNang5 from "../src/images/DaNang/000019.jpg";
+import DaNang6 from "../src/images/DaNang/000020.jpg";
+import DaNang7 from "../src/images/DaNang/000021.jpg";
+import DaNang8 from "../src/images/DaNang/000022.jpg";
+import DaNang9 from "../src/images/DaNang/000023.jpg";
+import DaNang10 from "../src/images/DaNang/000024.jpg";
+import DaNang11 from "../src/images/DaNang/000025.jpg";
+import DaNang12 from "../src/images/DaNang/000026.jpg";
+import DaNang13 from "../src/images/DaNang/000027.jpg";
+import DaNang14 from "../src/images/DaNang/000028.jpg";
+import DaNang15 from "../src/images/DaNang/000029.jpg";
+import DaNang16 from "../src/images/DaNang/000030.jpg";
+import DaNang17 from "../src/images/DaNang/000031.jpg";
+import DaNang18 from "../src/images/DaNang/000032.jpg";
+import DaNang19 from "../src/images/DaNang/000033.jpg";
+import DaNang20 from "../src/images/DaNang/000034.jpg";
+import DaNang21 from "../src/images/DaNang/000035.jpg";
+import DaNang22 from "../src/images/DaNang/000036.jpg";
+import DaNang23 from "../src/images/DaNang/000037.jpg";
+import DaNang24 from "../src/images/DaNang/000038.jpg";
+import DaNang25 from "../src/images/DaNang/000039.jpg";
+import DaNang26 from "../src/images/DaNang/000040.jpg";
+import DaNang27 from "../src/images/DaNang/000041.jpg";
 
-import Hanoi1 from '../src/images/Hanoi/000039.jpg'
-import Hanoi2 from '../src/images/Hanoi/000041.jpg'
-import Hanoi3 from '../src/images/Hanoi/000042.jpg'
-import Hanoi4 from '../src/images/Hanoi/000043.jpg'
-import Hanoi5 from '../src/images/Hanoi/000044.jpg'
-import Hanoi6 from '../src/images/Hanoi/000045.jpg'
-import Hanoi7 from '../src/images/Hanoi/000046.jpg'
-import Hanoi8 from '../src/images/Hanoi/000047.jpg'
-import Hanoi9 from '../src/images/Hanoi/000048.jpg'
-import Hanoi10 from '../src/images/Hanoi/000049.jpg'
-import Hanoi11 from '../src/images/Hanoi/000050.jpg'
-import Hanoi12 from '../src/images/Hanoi/000051.jpg'
-import Hanoi13 from '../src/images/Hanoi/000052.jpg'
-import Hanoi14 from '../src/images/Hanoi/000053.jpg'
-import Hanoi15 from '../src/images/Hanoi/000054.jpg'
-import Hanoi16 from '../src/images/Hanoi/000055.jpg'
-import Hanoi17 from '../src/images/Hanoi/000057.jpg'
-import Hanoi18 from '../src/images/Hanoi/000058.jpg'
-import Hanoi19 from '../src/images/Hanoi/000059.jpg'
-import Hanoi20 from '../src/images/Hanoi/000060.jpg'
-
+import Hanoi1 from "../src/images/Hanoi/000039.jpg";
+import Hanoi2 from "../src/images/Hanoi/000041.jpg";
+import Hanoi3 from "../src/images/Hanoi/000042.jpg";
+import Hanoi4 from "../src/images/Hanoi/000043.jpg";
+import Hanoi5 from "../src/images/Hanoi/000044.jpg";
+import Hanoi6 from "../src/images/Hanoi/000045.jpg";
+import Hanoi7 from "../src/images/Hanoi/000046.jpg";
+import Hanoi8 from "../src/images/Hanoi/000047.jpg";
+import Hanoi9 from "../src/images/Hanoi/000048.jpg";
+import Hanoi10 from "../src/images/Hanoi/000049.jpg";
+import Hanoi11 from "../src/images/Hanoi/000050.jpg";
+import Hanoi12 from "../src/images/Hanoi/000051.jpg";
+import Hanoi13 from "../src/images/Hanoi/000052.jpg";
+import Hanoi14 from "../src/images/Hanoi/000053.jpg";
+import Hanoi15 from "../src/images/Hanoi/000054.jpg";
+import Hanoi16 from "../src/images/Hanoi/000055.jpg";
+import Hanoi17 from "../src/images/Hanoi/000057.jpg";
+import Hanoi18 from "../src/images/Hanoi/000058.jpg";
+import Hanoi19 from "../src/images/Hanoi/000059.jpg";
+import Hanoi20 from "../src/images/Hanoi/000060.jpg";
 
 export var photos = [
   {
     id: 0,
     destination: "Nha Trang & Singapore",
     dates: "June 8th - June 15th",
-    summary: "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
+    summary:
+      "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
     cameraTitle: "Kyocera Zoomtec 80",
     filmTitle: "Fuji Superia 400",
     camera: KyoceraZoomtec80,
@@ -312,7 +312,8 @@ export var photos = [
     id: 1,
     destination: "Pu Luong",
     dates: "March 18th - March 20th",
-    summary: "Pu Luong is one of my favorite getaways in Vietnam. Not many people know about it, so if you travel on the right weekend, you have the winding mountain roads all to yourself. Don't be fooled by the bad photos, the waterfalls are much more stunning in person.",
+    summary:
+      "Pu Luong is one of my favorite getaways in Vietnam. Not many people know about it, so if you travel on the right weekend, you have the winding mountain roads all to yourself. Don't be fooled by the bad photos, the waterfalls are much more stunning in person.",
     cameraTitle: "Kyocera Zoomtec 80",
     filmTitle: "Kodak Gold 200",
     camera: KyoceraZoomtec80,
@@ -419,7 +420,8 @@ export var photos = [
     id: 2,
     destination: "Da Nang / Hoi An",
     dates: "February 2nd - February 5th",
-    summary: "These photos are from a Tet Holiday trip to Da Nang and Hoi An. Not a lot of beach action in Da Nang due to the crummy weather, but plenty of exploring a lots of good pictures.",
+    summary:
+      "These photos are from a Tet Holiday trip to Da Nang and Hoi An. Not a lot of beach action in Da Nang due to the crummy weather, but plenty of exploring and lots of good pictures.",
     cameraTitle: "Canon AutoBoy Luna XL",
     filmTitle: "Kodak Gold 200",
     camera: CanonAutoboy,
@@ -566,7 +568,8 @@ export var photos = [
     id: 3,
     destination: "Random Hanoi Photos",
     dates: "January 2022",
-    summary: "These photos were taken at various places around Hanoi during a weekend of exploration. This was the first roll of film I had purchased in quite some time, and this marks the time that I got back into photography.",
+    summary:
+      "These photos were taken at various places around Hanoi during a weekend of exploration. This was the first roll of film I had purchased in quite some time, and this marks the time that I got back into photography.",
     cameraTitle: "Canon AutoBoy Luna XL",
     filmTitle: "Fuji Superia 400",
     camera: CanonAutoboy,
@@ -672,7 +675,6 @@ export var photos = [
         width: 1,
         height: 1,
       },
-      
     ],
   },
 ];
