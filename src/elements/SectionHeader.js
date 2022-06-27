@@ -1,15 +1,14 @@
-import { StyledContainer } from "../components/styles/Container.styles"
-import { StyledSectionHeader } from "./styles/StyledSectionHeader.styled"
+import { StyledContainer } from "../components/styles/Container.styles";
+import { StyledSectionHeader } from "./styles/StyledSectionHeader.styled";
 
-
-const SectionHeader = (props) => { 
-    return (
+const SectionHeader = (props) => {
+  return (
     <>
-    <StyledContainer>
+      <StyledContainer>
         <StyledSectionHeader>Recent Adventures</StyledSectionHeader>
-    </StyledContainer>
+      </StyledContainer>
     </>
-    )
-}
+  );
+};
 
-export default SectionHeader
+export default SectionHeader;

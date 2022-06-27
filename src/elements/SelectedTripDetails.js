@@ -2,9 +2,9 @@ import { StyledContainer } from "../components/styles/Container.styles";
 
 import { FlexRowBetween } from "../components/styles/Flex.styles";
 
-import CanonAutoboy from "../images/canon_autoboy.png";
-import KodakGold200 from "../images/kodak_gold200.png";
-import FujiSuperia400 from "../images/fuji_color_superia_400.png";
+import OverlayTrigger from "react-bootstrap/esm/OverlayTrigger";
+
+import { Tooltip } from "react-bootstrap";
 
 import {
   SelectedTripDetailsContainer,
@@ -12,6 +12,7 @@ import {
   SelectedTripTitle,
   Photo,
 } from "./styles/SelectedTripDetails.styled";
+
 const SelectedTripDetails = (props) => {
   return (
     <StyledContainer>
@@ -21,8 +22,44 @@ const SelectedTripDetails = (props) => {
           <SelectedTripDates>{props.dates}</SelectedTripDates>
         </SelectedTripDetailsContainer>
         <FlexRowBetween>
-          <Photo src={props.camera}></Photo>
-          <Photo src={props.film}></Photo>
+          <OverlayTrigger
+            placement="top"
+            delay={{ show: 250, hide: 400 }}
+            overlay={
+              <Tooltip
+                id="button-tooltip"
+                style={{
+                  padding: "20px 10px",
+                  fontSize: "15px",
+                  color: "white",
+                  borderRadius: 3,
+                }}
+              >
+                {props.cameraTitle}
+              </Tooltip>
+            }
+          >
+            <Photo src={props.camera}></Photo>
+          </OverlayTrigger>
+          <OverlayTrigger
+            placement="bottom"
+            delay={{ show: 250, hide: 400 }}
+            overlay={
+              <Tooltip
+                id="button-tooltip"
+                style={{
+                  padding: "20px 10px",
+                  fontSize: "15px",
+                  color: "white",
+                  borderRadius: 3,
+                }}
+              >
+                {props.filmTitle}
+              </Tooltip>
+            }
+          >
+            <Photo src={props.film}></Photo>
+          </OverlayTrigger>
         </FlexRowBetween>
       </FlexRowBetween>
     </StyledContainer>

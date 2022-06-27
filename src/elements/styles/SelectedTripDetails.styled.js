@@ -41,12 +41,11 @@ export const PhotoContainer = styled.div`
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free";
-    content: "\f424";
+    content: \f424;
     font-weight: 900;
     font-size: 80px;
     position: absolute;
     transform: translate3d(-50%, -50%, 0) rotate(-45deg);
-    color: pink;
     left: 50%;
     top: 50%;
     display: block;

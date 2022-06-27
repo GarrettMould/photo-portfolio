@@ -25,16 +25,8 @@ const Trip = (props) => {
       <>
         <TimelineItem key={i}>
           <TimelineOppositeContent sx={{ width: 300, px: 4 }}>
-            <CameraTitle>{trip.cameraTitle}</CameraTitle>
-            <FilmTitle>{trip.filmTitle}</FilmTitle>
-
-            <StyledLink>
-              <button onClick={props.handleClick}>
-                <a href="#">
-                  <li id={i}>View Photos</li>
-                </a>
-              </button>
-            </StyledLink>
+            <TripTitle>{trip.destination}</TripTitle>
+            <TripDates>{trip.dates}</TripDates>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot sx={{ width: 30, height: 30, bgcolor: "#fff01f" }} />
@@ -45,8 +37,16 @@ const Trip = (props) => {
             />
           </TimelineSeparator>
           <TimelineContent sx={{ width: 300, px: 4 }}>
-            <TripTitle>{trip.destination}</TripTitle>
-            <TripDates>{trip.dates}</TripDates>
+            <CameraTitle>{trip.cameraTitle}</CameraTitle>
+            <FilmTitle>{trip.filmTitle}</FilmTitle>
+
+            <StyledLink>
+              <button onClick={props.handleClick}>
+                <a href="#">
+                  <li id={i}>View Photos</li>
+                </a>
+              </button>
+            </StyledLink>
           </TimelineContent>
         </TimelineItem>
       </>

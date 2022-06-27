@@ -14,7 +14,6 @@
 }
 body {
   margin: 0;
-  font-family: websiteFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -47,7 +46,7 @@ a:active {
   text-decoration: none;
 }
 
-button { 
-  outline: none; 
+button {
+  outline: none;
   border: none;
 }
