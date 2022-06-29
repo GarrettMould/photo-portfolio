@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
-import Home from "../components/Home";
-import Header from "../components/Header";
+
 import {
   PhotoContainer,
   GridPhoto,
 } from "../elements/styles/SelectedTripDetails.styled";
 import SelectedTrip from "../components/SelectedTrip";
 
-import { Routes } from "react-router-dom";
-
+import { StyledContainer } from "../components/styles/Container.styles";
 import { photos } from "../Photos";
+import HomePage from "../components/HomePage";
+import TripsPage from "../components/TripsPage";
 
 const App = (props) => {
   const [destination, setDestination] = useState("");
@@ -25,6 +25,9 @@ const App = (props) => {
   const [currentIndex, setCurrentIndex] = useState(null);
 
   // Set state based on selected trip information
+
+  console.log(destination, dates);
+
   const handleClick = (e) => {
     var id = e.target.id;
     setDestination(photos[id].destination);
@@ -93,26 +96,10 @@ const App = (props) => {
 
   return (
     <>
-      <Header clearState={clearState}></Header>
-      {!photoGallery ? (
-        <Home handleClick={handleClick}></Home>
-      ) : (
-        <SelectedTrip
-          currentIndex={currentIndex}
-          renderImageContent={renderImageContent}
-          closeModal={closeModal}
-          findPrev={findPrev}
-          findNext={findNext}
-          destination={destination}
-          dates={dates}
-          summary={summary}
-          cameraTitle={cameraTitle}
-          filmTitle={filmTitle}
-          camera={camera}
-          film={film}
-          photoGallery={photoGallery}
-        ></SelectedTrip>
-      )}
+      <StyledContainer>
+        <HomePage></HomePage>
+        <TripsPage handleClick={handleClick}></TripsPage>
+      </StyledContainer>
     </>
   );
 };

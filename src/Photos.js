@@ -566,7 +566,7 @@ export var photos = [
   },
   {
     id: 3,
-    destination: "Random Hanoi Photos",
+    destination: "Hanoi",
     dates: "January 2022",
     summary:
       "These photos were taken at various places around Hanoi during a weekend of exploration. This was the first roll of film I had purchased in quite some time, and this marks the time that I got back into photography.",

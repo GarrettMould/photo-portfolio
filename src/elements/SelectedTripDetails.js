@@ -6,7 +6,7 @@ import OverlayTrigger from "react-bootstrap/esm/OverlayTrigger";
 
 import { Tooltip } from "react-bootstrap";
 
-import BigPhoto from "./BigPhoto";
+import HomePhoto from "./HomePhoto";
 
 import {
   SelectedTripDetailsContainer,
@@ -18,7 +18,7 @@ import {
 const SelectedTripDetails = (props) => {
   return (
     <>
-      <BigPhoto></BigPhoto>
+      <HomePhoto></HomePhoto>
       <StyledContainer>
         <FlexRowBetween>
           <SelectedTripDetailsContainer>
