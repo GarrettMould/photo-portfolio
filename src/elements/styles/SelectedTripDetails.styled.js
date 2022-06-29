@@ -14,8 +14,8 @@ export const SelectedTripDates = styled.div`
 `;
 
 export const Photo = styled.img`
-  max-width: 110px;
-  margin-left: 40px;
+  max-width: 120px;
+  margin-left: 50px;
 `;
 
 export const StyledSelectedTripSummary = styled.div`

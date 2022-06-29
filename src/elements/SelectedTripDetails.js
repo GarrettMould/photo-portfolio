@@ -6,6 +6,8 @@ import OverlayTrigger from "react-bootstrap/esm/OverlayTrigger";
 
 import { Tooltip } from "react-bootstrap";
 
+import BigPhoto from "./BigPhoto";
+
 import {
   SelectedTripDetailsContainer,
   SelectedTripDates,
@@ -15,54 +17,57 @@ import {
 
 const SelectedTripDetails = (props) => {
   return (
-    <StyledContainer>
-      <FlexRowBetween>
-        <SelectedTripDetailsContainer>
-          <SelectedTripTitle>{props.destination}</SelectedTripTitle>
-          <SelectedTripDates>{props.dates}</SelectedTripDates>
-        </SelectedTripDetailsContainer>
+    <>
+      <BigPhoto></BigPhoto>
+      <StyledContainer>
         <FlexRowBetween>
-          <OverlayTrigger
-            placement="top"
-            delay={{ show: 250, hide: 400 }}
-            overlay={
-              <Tooltip
-                id="button-tooltip"
-                style={{
-                  padding: "20px 10px",
-                  fontSize: "15px",
-                  color: "white",
-                  borderRadius: 3,
-                }}
-              >
-                {props.cameraTitle}
-              </Tooltip>
-            }
-          >
-            <Photo src={props.camera}></Photo>
-          </OverlayTrigger>
-          <OverlayTrigger
-            placement="bottom"
-            delay={{ show: 250, hide: 400 }}
-            overlay={
-              <Tooltip
-                id="button-tooltip"
-                style={{
-                  padding: "20px 10px",
-                  fontSize: "15px",
-                  color: "white",
-                  borderRadius: 3,
-                }}
-              >
-                {props.filmTitle}
-              </Tooltip>
-            }
-          >
-            <Photo src={props.film}></Photo>
-          </OverlayTrigger>
+          <SelectedTripDetailsContainer>
+            <SelectedTripTitle>{props.destination}</SelectedTripTitle>
+            <SelectedTripDates>{props.dates}</SelectedTripDates>
+          </SelectedTripDetailsContainer>
+          <FlexRowBetween>
+            <OverlayTrigger
+              placement="top"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip
+                  id="button-tooltip"
+                  style={{
+                    padding: "20px 10px",
+                    fontSize: "15px",
+                    color: "white",
+                    borderRadius: 3,
+                  }}
+                >
+                  {props.cameraTitle}
+                </Tooltip>
+              }
+            >
+              <Photo src={props.camera}></Photo>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip
+                  id="button-tooltip"
+                  style={{
+                    padding: "20px 10px",
+                    fontSize: "15px",
+                    color: "white",
+                    borderRadius: 3,
+                  }}
+                >
+                  {props.filmTitle}
+                </Tooltip>
+              }
+            >
+              <Photo src={props.film}></Photo>
+            </OverlayTrigger>
+          </FlexRowBetween>
         </FlexRowBetween>
-      </FlexRowBetween>
-    </StyledContainer>
+      </StyledContainer>
+    </>
   );
 };
 
