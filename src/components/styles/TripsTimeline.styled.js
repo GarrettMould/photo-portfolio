@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledTripsTimeline = styled.ul`
-  width: 55%;
+  width: 90%;
   padding-left: 0;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@ export const StyledTripsTimeline = styled.ul`
     display: block;
     margin-top: 2%;
     width: 100%;
-    height: 1px;
+    height: 2px;
     background: rgba(34, 34, 34, 0.2);
   }
 
@@ -26,14 +26,14 @@ export const StyledTripsTimeline = styled.ul`
     display: block;
     margin-top: 2%;
     width: 100%;
-    height: 1px;
+    height: 2px;
     background: #121212;
   }
 `;
 
 export const TripsHeadline = styled.div`
   font-size: 300%;
-  padding: 5% 0%;
+  padding: 10% 0% 5% 0%;
 `;
 
 export const TripContainer = styled.li`
@@ -55,5 +55,5 @@ export const TripTitle = styled.div`
 
 export const TripDates = styled.div`
   font-size: 120%;
-  color: rgba(34, 34, 34, 0.2);
+  color: rgba(34, 34, 34, 0.5);
 `;

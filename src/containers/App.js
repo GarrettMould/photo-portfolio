@@ -5,12 +5,13 @@ import {
   PhotoContainer,
   GridPhoto,
 } from "../elements/styles/SelectedTripDetails.styled";
-import SelectedTrip from "../components/SelectedTrip";
 
 import { StyledContainer } from "../components/styles/Container.styles";
 import { photos } from "../Photos";
 import HomePage from "../components/HomePage";
 import TripsPage from "../components/TripsPage";
+import Footer from "../components/Footer";
+import GridSection from "../components/GridSection";
 
 const App = (props) => {
   const [destination, setDestination] = useState("");
@@ -99,6 +100,8 @@ const App = (props) => {
       <StyledContainer>
         <HomePage></HomePage>
         <TripsPage handleClick={handleClick}></TripsPage>
+        <GridSection></GridSection>
+        <Footer></Footer>
       </StyledContainer>
     </>
   );

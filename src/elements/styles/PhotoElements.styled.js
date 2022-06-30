@@ -5,5 +5,6 @@ export const StyledHomePhoto = styled.img`
 `;
 
 export const StyledTripsPhoto = styled.img`
-  max-width: 400px;
+  max-width: 80%;
+  margin-left: 17%;
 `;
