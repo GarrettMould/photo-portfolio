@@ -35,8 +35,11 @@ const GridSection = (props) => {
         <GridColumn size="6">
           <TextBox>
             <p>
-              A QUICK PREVIEW OF SOME OF THE PHOTOS I HAVE TAKEN OVER THE PAST
-              YEAR AND A HALF, FROM VARIOUS PLACES ACROSS ASIA
+              THIS COLLECTION OF PICTURES WAS TAKEN WITH A{" "}
+              <a href="#">CANON AUTOBOY LUNA XL</a> AND{" "}
+              <a href="#">KYOCERA ZOOMTEC 80</a>, USING{" "}
+              <a href="#">FUJI SUPERIA 400</a> AND{" "}
+              <a href="#">KODAK GOLD 200</a> FILM.
             </p>
           </TextBox>
           <Image src={GridPhoto10}></Image>

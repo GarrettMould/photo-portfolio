@@ -14,6 +14,14 @@ export const StyledTripsTimeline = styled.ul`
     width: 100%;
     height: 2px;
     background: rgba(34, 34, 34, 0.2);
+    /* Firefox */
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
   }
 
   li:hover {

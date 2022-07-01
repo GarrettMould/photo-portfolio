@@ -35,6 +35,14 @@ export const TextBox = styled.div`
 
   p {
     padding: 0% 10%;
-    font-size: 250%;
+    font-size: 200%;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    color: black;
   }
 `;
