@@ -9,7 +9,7 @@ import {
 
 const TripsPage = (props) => {
   return (
-    <GridContainer>
+    <GridContainer id="trips">
       <GridRow>
         <GridColumn size="7">
           <TripsTimeline handleClick={props.handleClick}></TripsTimeline>

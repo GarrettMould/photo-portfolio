@@ -7,7 +7,10 @@ import { Container } from "./styles/Container.styles";
 const HomePageRightBlock = (props) => {
   return (
     <Container>
-      <Header></Header>
+      <Header
+        currentIndex={props.currentIndex}
+        clearState={props.clearState}
+      ></Header>
       <HomePageText></HomePageText>
     </Container>
   );

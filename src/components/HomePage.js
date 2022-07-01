@@ -11,7 +11,10 @@ const HomePage = (props) => {
     <Padding>
       <FlexRowSpaceBetween>
         <HomePageLeftBlock></HomePageLeftBlock>
-        <HomePageRightBlock></HomePageRightBlock>
+        <HomePageRightBlock
+          currentIndex={props.currentIndex}
+          clearState={props.clearState}
+        ></HomePageRightBlock>
       </FlexRowSpaceBetween>
     </Padding>
   );

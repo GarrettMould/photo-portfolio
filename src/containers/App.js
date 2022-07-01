@@ -10,12 +10,14 @@ import { StyledContainer } from "../components/styles/Container.styles";
 import { photos } from "../Photos";
 import HomePage from "../components/HomePage";
 import TripsPage from "../components/TripsPage";
+import Header from "../elements/Header";
 import Footer from "../components/Footer";
 import GridSection from "../components/GridSection";
 import ChosenTripNhaTrang from "../components/ChosenTripNhaTrang";
 import ChosenTripPuLuong from "../components/ChosenTripPuLuong";
 import ChosenTripDaNang from "../components/ChosenTripDaNang";
 import ChosenTripHanoi from "../components/ChosenTripHanoi";
+import BackButton from "../elements/BackButton";
 
 const App = (props) => {
   const [destination, setDestination] = useState("");
@@ -31,11 +33,11 @@ const App = (props) => {
 
   // Set state based on selected trip information
 
-  console.log(destination, dates);
+  console.log(currentIndex);
 
   const handleClick = (e) => {
     var id = e.target.id;
-
+    setCurrentIndex(id);
     setDestination(photos[id].destination);
     setDates(photos[id].dates);
     setSummary(photos[id].summary);
@@ -48,6 +50,7 @@ const App = (props) => {
 
   // Clear State of selected trip information
   const clearState = () => {
+    setCurrentIndex(null);
     setDestination("");
     setDates("");
     setSummary("");
@@ -100,16 +103,69 @@ const App = (props) => {
     console.log(currentIndex);
   };
 
-  return (
-    <>
-      <StyledContainer>
+  var display;
+
+  if (currentIndex == null) {
+    display = (
+      <>
+        {" "}
         <HomePage></HomePage>
         <TripsPage handleClick={handleClick}></TripsPage>
         <GridSection></GridSection>
-        <ChosenTripHanoi></ChosenTripHanoi>
+        <Footer></Footer>
+      </>
+    );
+  } else if (currentIndex == 0) {
+    display = (
+      <>
+        {" "}
+        <BackButton clearState={clearState}></BackButton>
         <ChosenTripNhaTrang></ChosenTripNhaTrang>
         <Footer></Footer>
-      </StyledContainer>
+      </>
+    );
+  } else if (currentIndex == 1) {
+    display = (
+      <>
+        {" "}
+        <BackButton clearState={clearState}></BackButton>
+        <ChosenTripPuLuong></ChosenTripPuLuong>
+        <Footer></Footer>
+      </>
+    );
+  } else if (currentIndex == 2) {
+    display = (
+      <>
+        {" "}
+        <BackButton clearState={clearState}></BackButton>
+        <ChosenTripDaNang></ChosenTripDaNang>
+        <Footer></Footer>
+      </>
+    );
+  } else if (currentIndex == 3) {
+    display = (
+      <>
+        {" "}
+        <BackButton clearState={clearState}></BackButton>
+        <ChosenTripHanoi></ChosenTripHanoi>
+        <Footer></Footer>
+      </>
+    );
+  } else {
+    display = (
+      <>
+        {" "}
+        <HomePage></HomePage>
+        <TripsPage handleClick={handleClick}></TripsPage>
+        <GridSection></GridSection>
+        <Footer></Footer>
+      </>
+    );
+  }
+
+  return (
+    <>
+      <StyledContainer>{display}</StyledContainer>
     </>
   );
 };

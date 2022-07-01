@@ -38,7 +38,7 @@ export const TripsHeadline = styled.div`
 
 export const TripContainer = styled.li`
   width: 100%;
-  padding-top: 3%;
+  padding-top: 5%;
 `;
 
 export const TripLink = styled.a`

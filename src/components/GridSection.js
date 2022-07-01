@@ -22,7 +22,7 @@ import GridPhoto11 from "../images/gridPhoto11.jpg";
 
 const GridSection = (props) => {
   return (
-    <GridContainer>
+    <GridContainer id="photos">
       <GridRow>
         <GridColumn size="6">
           <Image src={GridPhoto3}></Image>
