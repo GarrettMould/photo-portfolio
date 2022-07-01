@@ -14,7 +14,7 @@ export const StyledNavBar = styled.div`
   }
 
   li {
-    font-size: 140%;
+    font-size: 120%;
     list-style: none;
   }
 

@@ -2,6 +2,8 @@ import CanonAutoboy from "../src/images/canon_autoboy.png";
 import KodakGold200 from "../src/images/kodak_gold200.png";
 import KyoceraZoomtec80 from "../src/images/kyocera_zoomtec_80.png";
 import FujiSuperia400 from "../src/images/fuji_color_superia_400.png";
+
+import PuLuongTitlePhoto from "../src/images/ChosenTripHomeImages/puLuong.jpg";
 import PuLuong1 from "../src/images/PuLuong/Image_26273.jpg";
 import PuLuong2 from "../src/images/PuLuong/Image_26274.jpg";
 import PuLuong3 from "../src/images/PuLuong/Image_26275.jpg";
@@ -22,6 +24,7 @@ import PuLuong17 from "../src/images/PuLuong/Image_26289.jpg";
 import PuLuong18 from "../src/images/PuLuong/Image_26290.jpg";
 import PuLuong19 from "../src/images/PuLuong/Image_26291.jpg";
 
+import NhaTrangTitlePhoto from "../src/images/ChosenTripHomeImages/nhaTrang.JPG";
 import NhaTrang1 from "../src/images/NhaTrang/R1-03344-000E.JPG";
 import NhaTrang2 from "../src/images/NhaTrang/R1-03344-0001.JPG";
 import NhaTrang3 from "../src/images/NhaTrang/R1-03344-0002.JPG";
@@ -59,7 +62,12 @@ import NhaTrang34 from "../src/images/NhaTrang/R1-03344-0033.JPG";
 import NhaTrang35 from "../src/images/NhaTrang/R1-03344-0034.JPG";
 import NhaTrang36 from "../src/images/NhaTrang/R1-03344-0035.JPG";
 import NhaTrang37 from "../src/images/NhaTrang/R1-03344-0036.JPG";
+import NhaTrang38 from "../src/images/NhaTrang/R1-03344-0037.jpg";
+import NhaTrang39 from "../src/images/NhaTrang/R1-03344-0038.jpg";
+import NhaTrang40 from "../src/images/NhaTrang/R1-03344-0039.jpg";
+import NhaTrang41 from "../src/images/NhaTrang/R1-03344-0040.JPG";
 
+import DaNangTitlePhoto from "../src/images/ChosenTripHomeImages/daNang.jpg";
 import DaNang1 from "../src/images/DaNang/000015.jpg";
 import DaNang2 from "../src/images/DaNang/000016.jpg";
 import DaNang3 from "../src/images/DaNang/000017.jpg";
@@ -88,6 +96,7 @@ import DaNang25 from "../src/images/DaNang/000039.jpg";
 import DaNang26 from "../src/images/DaNang/000040.jpg";
 import DaNang27 from "../src/images/DaNang/000041.jpg";
 
+import HanoiTitlePhoto from "../src/images/ChosenTripHomeImages/hanoi.jpg";
 import Hanoi1 from "../src/images/Hanoi/000039.jpg";
 import Hanoi2 from "../src/images/Hanoi/000041.jpg";
 import Hanoi3 from "../src/images/Hanoi/000042.jpg";
@@ -112,14 +121,15 @@ import Hanoi20 from "../src/images/Hanoi/000060.jpg";
 export var photos = [
   {
     id: 0,
-    destination: "Nha Trang & Singapore",
-    dates: "June 8th - June 15th",
+    destination: "NHA TRANG, SINGAPORE, HOME",
+    dates: "JUNE 8TH - JUNE 15TH",
     summary:
-      "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
-    cameraTitle: "Kyocera Zoomtec 80",
-    filmTitle: "Fuji Superia 400",
+      "THIS TRIP INCLUDED AN EVENTFUL THREE-DAY VACATION TO NHA TRANG, AS WELL AS MY FIRST TRIP OVERSEAS SINCE BEFORE THE PANDEMIC. I SAW A BIT OF EVERYTHING, FROM BEACHES, TO WATERFALLS, TO THE IMPRESSIVE SINGAPOREAN ARCHITECTURE. A FANTASTIC TRIP WITH PLENTY OF GOOD MEMORIES.",
+    cameraTitle: "KYOCERA ZOOMTEC 80",
+    filmTitle: "FUJI SUPERIA 400",
     camera: KyoceraZoomtec80,
     film: FujiSuperia400,
+    titlePhoto: NhaTrangTitlePhoto,
     photos: [
       {
         src: NhaTrang1,
@@ -306,18 +316,39 @@ export var photos = [
         width: 4,
         height: 3,
       },
+      {
+        src: NhaTrang38,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: NhaTrang39,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: NhaTrang40,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: NhaTrang41,
+        width: 4,
+        height: 3,
+      },
     ],
   },
   {
     id: 1,
-    destination: "Pu Luong",
-    dates: "March 18th - March 20th",
+    destination: "PU LUONG",
+    dates: "MARCH 18TH - MARCH 20TH",
     summary:
-      "Pu Luong is one of my favorite getaways in Vietnam. Not many people know about it, so if you travel on the right weekend, you have the winding mountain roads all to yourself. Don't be fooled by the bad photos, the waterfalls are much more stunning in person.",
-    cameraTitle: "Kyocera Zoomtec 80",
-    filmTitle: "Kodak Gold 200",
+      "PU LUONG IS ONE OF MY FAVORITE GETAWAYS IN VIETNAM. NOT MANY PEOPLE KNOW ABOUT IT, SO IF YOU TRAVEL ON THE RIGHT WEEKEND, YOU HAVE THE WINDING MOUNTAIN ROADS ALL TO YOURSELF. DON'T BE FOOLED BY THE BAD PHOTOS, THE WATERFALLS ARE MUCH MORE STUNNING IN PERSON.",
+    cameraTitle: "KYOCERA ZOOMTEC 80",
+    filmTitle: "KODAK GOLD 200",
     camera: KyoceraZoomtec80,
     film: KodakGold200,
+    titlePhoto: PuLuongTitlePhoto,
     photos: [
       {
         src: PuLuong1,
@@ -418,14 +449,15 @@ export var photos = [
   },
   {
     id: 2,
-    destination: "Da Nang / Hoi An",
-    dates: "February 2nd - February 5th",
+    destination: "DA NANG & HOI AN",
+    dates: "FEBRAUARY 2ND - FEBRUARY 5TH",
     summary:
-      "These photos are from a Tet Holiday trip to Da Nang and Hoi An. Not a lot of beach action in Da Nang due to the crummy weather, but plenty of exploring and lots of good pictures.",
-    cameraTitle: "Canon AutoBoy Luna XL",
-    filmTitle: "Kodak Gold 200",
+      "THESE PHOTOS ARE FROM A TET HOLIDAY TRIP TO DA NANG AND HOI AN. NOT A LOT OF BEACH ACTION IN DA NANG DUE TO THE CRUMMY WEATHER, BUT PLENTY OF EXPLORING AND LOTS OF GOOD PICTURES.",
+    cameraTitle: "CANON AUTOBOY LUNA XL",
+    filmTitle: "KODAK GOLD 200",
     camera: CanonAutoboy,
     film: KodakGold200,
+    titlePhoto: DaNangTitlePhoto,
     photos: [
       {
         src: DaNang1,
@@ -566,14 +598,15 @@ export var photos = [
   },
   {
     id: 3,
-    destination: "Hanoi",
-    dates: "January 2022",
+    destination: "HANOI",
+    dates: "JANUARY 2022",
     summary:
-      "These photos were taken at various places around Hanoi during a weekend of exploration. This was the first roll of film I had purchased in quite some time, and this marks the time that I got back into photography.",
-    cameraTitle: "Canon AutoBoy Luna XL",
-    filmTitle: "Fuji Superia 400",
+      "THESE PHOTOS WERE TAKEN AT VARIOUS PLACES AROUND HANOI DURING A WEEKEND OF EXPLORATION. THIS WAS THE FIRST ROLL OF FILM I HAD PURCHASED IN QUITE SOME TIME, AND THIS MARKS THE TIME THAT I GOT BACK INTO PHOTOGRAPHY.",
+    cameraTitle: "CANON AUTOBOY LUNA XL",
+    filmTitle: "FUJI SUPERIA 400",
     camera: CanonAutoboy,
     film: FujiSuperia400,
+    titlePhoto: HanoiTitlePhoto,
     photos: [
       {
         src: Hanoi1,

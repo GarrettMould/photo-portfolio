@@ -4,13 +4,13 @@ const Header = (props) => {
   return (
     <StyledNavBar>
       <a href="#">
-        <li>photos</li>
+        <li>PHOTOS</li>
       </a>
       <a href="#">
-        <li>trips</li>
+        <li>TRIPS</li>
       </a>
       <a href="#">
-        <li>about</li>
+        <li>ABOUT</li>
       </a>
     </StyledNavBar>
   );

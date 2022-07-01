@@ -9,13 +9,19 @@ const Footer = (props) => {
     <FooterContainer>
       <FooterFlex>
         <FooterItem>
-          <a href="#">Facebook</a>
+          <a href="https://www.facebook.com/garrett.mould/" target="_blank">
+            FACEBOOK
+          </a>
         </FooterItem>
         <FooterItem>
-          <a href="#">Instagram</a>
+          <a href="https://www.instagram.com/garrettmould/" target="_blank">
+            INSTAGRAM
+          </a>
         </FooterItem>
         <FooterItem>
-          <a href="#">Github</a>
+          <a href="https://github.com/GarrettMould" target="_blank">
+            GITHUB
+          </a>
         </FooterItem>
       </FooterFlex>
     </FooterContainer>

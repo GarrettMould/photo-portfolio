@@ -30,7 +30,7 @@ const TripsTimeline = (props) => {
     <>
       <StyledTripsTimeline>
         <FlexColumn>
-          <TripsHeadline>Recent Trips</TripsHeadline>
+          <TripsHeadline>RECENT TRIPS</TripsHeadline>
           {mappedTrips}
         </FlexColumn>
       </StyledTripsTimeline>

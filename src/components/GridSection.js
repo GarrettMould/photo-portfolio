@@ -35,8 +35,8 @@ const GridSection = (props) => {
         <GridColumn size="6">
           <TextBox>
             <p>
-              A quick preview of some of the photos I have taken over the past
-              year and a half, from various places across Asia
+              A QUICK PREVIEW OF SOME OF THE PHOTOS I HAVE TAKEN OVER THE PAST
+              YEAR AND A HALF, FROM VARIOUS PLACES ACROSS ASIA
             </p>
           </TextBox>
           <Image src={GridPhoto10}></Image>

@@ -12,6 +12,10 @@ import HomePage from "../components/HomePage";
 import TripsPage from "../components/TripsPage";
 import Footer from "../components/Footer";
 import GridSection from "../components/GridSection";
+import ChosenTripNhaTrang from "../components/ChosenTripNhaTrang";
+import ChosenTripPuLuong from "../components/ChosenTripPuLuong";
+import ChosenTripDaNang from "../components/ChosenTripDaNang";
+import ChosenTripHanoi from "../components/ChosenTripHanoi";
 
 const App = (props) => {
   const [destination, setDestination] = useState("");
@@ -31,6 +35,7 @@ const App = (props) => {
 
   const handleClick = (e) => {
     var id = e.target.id;
+
     setDestination(photos[id].destination);
     setDates(photos[id].dates);
     setSummary(photos[id].summary);
@@ -101,6 +106,8 @@ const App = (props) => {
         <HomePage></HomePage>
         <TripsPage handleClick={handleClick}></TripsPage>
         <GridSection></GridSection>
+        <ChosenTripHanoi></ChosenTripHanoi>
+        <ChosenTripNhaTrang></ChosenTripNhaTrang>
         <Footer></Footer>
       </StyledContainer>
     </>

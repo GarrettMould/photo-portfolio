@@ -7,9 +7,9 @@ const HomePageText = (props) => {
     <>
       <Container>
         <HomePageMessage>
-          a collection of 35mm<br></br>film photographs<br></br> taken by
+          A COLLECTION OF 35MM<br></br>FILM PHOTOGRAPHS<br></br> TAKEN BY
         </HomePageMessage>
-        <HomePageName>garrett mould</HomePageName>
+        <HomePageName>GARRETT MOULD</HomePageName>
       </Container>
     </>
   );
