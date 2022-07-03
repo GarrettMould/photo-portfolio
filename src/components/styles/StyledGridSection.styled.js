@@ -38,11 +38,7 @@ export const TextBox = styled.div`
     font-size: 200%;
   }
 
-  a {
-    color: black;
-  }
-
-  a:hover {
-    color: black;
+  span {
+    text-decoration: underline;
   }
 `;

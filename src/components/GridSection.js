@@ -36,10 +36,10 @@ const GridSection = (props) => {
           <TextBox>
             <p>
               THIS COLLECTION OF PICTURES WAS TAKEN WITH A{" "}
-              <a href="#">CANON AUTOBOY LUNA XL</a> AND{" "}
-              <a href="#">KYOCERA ZOOMTEC 80</a>, USING{" "}
-              <a href="#">FUJI SUPERIA 400</a> AND{" "}
-              <a href="#">KODAK GOLD 200</a> FILM.
+              <span>CANON AUTOBOY LUNA XL</span> AND{" "}
+              <span>KYOCERA ZOOMTEC 80</span>, USING{" "}
+              <span>FUJI SUPERIA 400</span> AND <span>KODAK GOLD 200</span>{" "}
+              FILM.
             </p>
           </TextBox>
           <Image src={GridPhoto10}></Image>

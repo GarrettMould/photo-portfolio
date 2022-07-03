@@ -35,6 +35,12 @@ const App = (props) => {
 
   console.log(currentIndex);
 
+  const scrollTop =
+    (() => {
+      window.scrollTo(0, 0);
+    },
+    []);
+
   const handleClick = (e) => {
     var id = e.target.id;
     setCurrentIndex(id);
@@ -46,6 +52,8 @@ const App = (props) => {
     setCamera(photos[id].camera);
     setFilm(photos[id].film);
     setPhotoGallery(photos[id].photos);
+
+    scrollTop();
   };
 
   // Clear State of selected trip information
