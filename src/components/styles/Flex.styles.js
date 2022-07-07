@@ -6,6 +6,7 @@ export const FlexRowSpaceBetween = styled.div`
 `;
 
 export const FlexRowCenter = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: row;

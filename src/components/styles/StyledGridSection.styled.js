@@ -6,7 +6,7 @@ export const GridContainer = styled.div`
   gap: 1em;
 
   @media only screen and (max-width: 599px) {
-    gap: 0.5%;
+    gap: 0.25%;
   }
 `;
 

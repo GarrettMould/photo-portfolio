@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-export const ButtonReturn = styled.div`
-  font-size: 120%;
-  padding-top: 50px;
-`;
-
 export const StyledNavBar = styled.div`
   width: 100%;
   display: flex;
