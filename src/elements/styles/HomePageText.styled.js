@@ -20,14 +20,14 @@ export const HomePageMessage = styled.div`
 
 export const HomePageName = styled.div`
   padding-bottom: 2%;
-  font-size: 450%;
+  font-size: 520%;
   font-weight: 600;
   text-align: end;
   margin-top: auto;
 
   @media only screen and (max-width: 599px) {
     padding-top: 3%;
-    font-size: 500%;
+    font-size: 450%;
     line-height: 130%;
     text-align: center;
   }
