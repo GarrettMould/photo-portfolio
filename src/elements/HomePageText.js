@@ -11,7 +11,7 @@ const HomePageText = (props) => {
         matches.small ? (
           <Container>
             <HomePageMessage>
-              A COLLECTION OF 35MM FILM PHOTOGRAPHS TAKEN BY
+              A COLLECTION OF 35MM FILM PHOTOS TAKEN BY
             </HomePageMessage>
             <HomePageName>GARRETT MOULD</HomePageName>
           </Container>
