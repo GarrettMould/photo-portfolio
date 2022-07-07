@@ -10,7 +10,7 @@ export const StyledTripsTimeline = styled.ul`
   li::after {
     content: "";
     display: block;
-    margin-top: 2%;
+    margin-top: 5%;
     width: 100%;
     height: 2px;
     background: rgba(34, 34, 34, 0.2);
@@ -32,10 +32,27 @@ export const StyledTripsTimeline = styled.ul`
   li:hover::after {
     content: "";
     display: block;
-    margin-top: 2%;
+    margin-top: 5%;
     width: 100%;
     height: 2px;
     background: #121212;
+  }
+
+  @media only screen and (max-width: 599px) {
+    width: 95%;
+
+    li:active {
+      color: #121212;
+    }
+
+    li:active::after {
+      content: "";
+      display: block;
+      margin-top: 5%;
+      width: 100%;
+      height: 2px;
+      background: #121212;
+    }
   }
 `;
 
@@ -79,6 +96,7 @@ export const TripTitle = styled.div`
 
   @media only screen and (max-width: 599px) {
     font-size: 120%;
+    padding-bottom: 2%;
   }
 `;
 

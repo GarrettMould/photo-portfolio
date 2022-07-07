@@ -12,6 +12,7 @@ export const FooterItem = styled.div`
   @media only screen and (max-width: 599px) {
     font-size: 100%;
     font-weight: 600;
+    padding-left: 0%;
   }
 
   a,
