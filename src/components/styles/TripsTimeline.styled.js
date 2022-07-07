@@ -42,11 +42,21 @@ export const StyledTripsTimeline = styled.ul`
 export const TripsHeadline = styled.div`
   font-size: 300%;
   padding: 10% 0% 5% 0%;
+
+  @media only screen and (max-width: 599px) {
+    font-size: 250%;
+    text-align: center;
+    padding-top: 15%;
+  }
 `;
 
 export const TripContainer = styled.li`
   width: 100%;
   padding-top: 5%;
+
+  @media only screen and (max-width: 599px) {
+    padding-top: 5%;
+  }
 `;
 
 export const TripLink = styled.a`
@@ -55,13 +65,28 @@ export const TripLink = styled.a`
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
+
+  @media only screen and (max-width: 599px) {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
 `;
 
 export const TripTitle = styled.div`
   font-size: 150%;
+
+  @media only screen and (max-width: 599px) {
+    font-size: 120%;
+  }
 `;
 
 export const TripDates = styled.div`
   font-size: 120%;
   color: rgba(34, 34, 34, 0.5);
+
+  @media only screen and (max-width: 599px) {
+    font-size: 90%;
+  }
 `;

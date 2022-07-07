@@ -13,14 +13,28 @@ export const StyledNavBar = styled.div`
 
   align-items: center;
 
+  @media only screen and (max-width: 599px) {
+    justify-content: space-between;
+    padding-bottom: 5%;
+  }
+
   a {
     text-decoration: none;
     margin-left: 70px;
+
+    @media only screen and (max-width: 599px) {
+      margin-left: 0;
+    }
   }
 
   li {
     font-size: 120%;
     list-style: none;
+
+    @media only screen and (max-width: 599px) {
+      font-size: 100%;
+      padding-top: 20px;
+    }
   }
 
   li::after {
@@ -34,5 +48,10 @@ export const StyledNavBar = styled.div`
 
   li:hover::after {
     width: 100%;
+  }
+  @media only screen and (max-width: 599px) {
+    li:active::after {
+      width: 100%;
+    }
   }
 `;

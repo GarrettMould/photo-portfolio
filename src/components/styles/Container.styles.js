@@ -2,13 +2,20 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+
+  @media only screen and (max-width: 599px) {
+    justify-content: center;
+  }
 `;
 
 export const StyledContainer = styled.div`
-  max-width: 100vw;
+  width: 100%;
   padding: 0 50px;
   margin: 0 auto;
+
+  @media only screen and (max-width: 599px) {
+    padding: 0 30px;
+  }
 `;
 
 export const Padding = styled.div`
@@ -17,14 +24,4 @@ export const Padding = styled.div`
 
 export const BasicContainer = styled.div`
   max-width: 100%;
-`;
-
-export const GridContainer = styled.div`
-  padding: 5% 0%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 8px;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
 `;

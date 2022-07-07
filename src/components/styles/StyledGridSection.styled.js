@@ -4,6 +4,10 @@ export const GridContainer = styled.div`
   display: grid;
   margin: 5% 0% 0% 0%;
   gap: 1em;
+
+  @media only screen and (max-width: 599px) {
+    gap: 0.5%;
+  }
 `;
 
 export const GridRow = styled.div`

@@ -18,6 +18,7 @@ import ChosenTripPuLuong from "../components/ChosenTripPuLuong";
 import ChosenTripDaNang from "../components/ChosenTripDaNang";
 import ChosenTripHanoi from "../components/ChosenTripHanoi";
 import BackButton from "../elements/BackButton";
+import GridSpacerMobile from "../components/GridSpacerMobile";
 
 const App = (props) => {
   const [destination, setDestination] = useState("");
@@ -118,6 +119,7 @@ const App = (props) => {
       <>
         {" "}
         <HomePage></HomePage>
+        <GridSpacerMobile></GridSpacerMobile>
         <TripsPage handleClick={handleClick}></TripsPage>
         <GridSection></GridSection>
         <Footer></Footer>
