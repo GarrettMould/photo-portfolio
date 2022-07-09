@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const HomePageMessage = styled.div`
   padding-top: 12%;
-  font-size: 320%;
+  font-size: 350%;
   font-weight: 400;
   text-align: end;
 

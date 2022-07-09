@@ -31,7 +31,7 @@ export const ChosenTripSummary = styled.div`
   width: 70%;
 
   @media only screen and (max-width: 599px) {
-    font-size: 80%;
+    font-size: 90%;
     line-height: 170%;
     width: 90%;
     padding-bottom: 5%;

@@ -16,7 +16,7 @@ const TripsPage = (props) => {
     <Media queries={{ small: { maxWidth: 599 } }}>
       {(matches) =>
         matches.small ? (
-          <FlexRowCenter>
+          <FlexRowCenter id="trips">
             <TripsTimeline handleClick={props.handleClick}></TripsTimeline>
           </FlexRowCenter>
         ) : (

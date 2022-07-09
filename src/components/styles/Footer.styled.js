@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-  padding: 10% 0% 5% 0%;
+  padding: 5% 0% 3% 0%;
+
+  @media only screen and (max-width: 599px) {
+    padding: 10% 0% 5% 0%;
+  }
 `;
 
 export const FooterItem = styled.div`

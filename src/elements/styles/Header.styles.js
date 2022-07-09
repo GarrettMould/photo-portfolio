@@ -23,7 +23,7 @@ export const StyledNavBar = styled.div`
   }
 
   li {
-    font-size: 120%;
+    font-size: 130%;
     list-style: none;
 
     @media only screen and (max-width: 599px) {
