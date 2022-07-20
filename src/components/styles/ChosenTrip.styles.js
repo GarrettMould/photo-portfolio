@@ -21,6 +21,7 @@ export const ChosenTripDates = styled.div`
 
   @media only screen and (max-width: 599px) {
     padding-bottom: 2%;
+    font-size: 150%;
     text-align: start;
   }
 `;
@@ -31,7 +32,7 @@ export const ChosenTripSummary = styled.div`
   width: 70%;
 
   @media only screen and (max-width: 599px) {
-    font-size: 90%;
+    font-size: 110%;
     line-height: 170%;
     width: 90%;
     padding-bottom: 5%;

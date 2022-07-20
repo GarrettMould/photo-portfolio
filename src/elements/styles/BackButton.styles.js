@@ -5,7 +5,7 @@ export const StyledBackButton = styled.div`
   padding-top: 50px;
 
   @media only screen and (max-width: 599px) {
-    font-size: 100%;
+    font-size: 120%;
     padding-top: 20px;
   }
 `;
