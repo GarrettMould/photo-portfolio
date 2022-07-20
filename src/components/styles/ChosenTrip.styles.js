@@ -20,7 +20,7 @@ export const ChosenTripDates = styled.div`
   color: rgba(34, 34, 34, 0.5);
 
   @media only screen and (max-width: 599px) {
-    padding-bottom: 2%;
+    padding-top: 2%;
     font-size: 150%;
     text-align: start;
   }
@@ -35,6 +35,7 @@ export const ChosenTripSummary = styled.div`
     font-size: 110%;
     line-height: 170%;
     width: 90%;
+    padding-top: 2%;
     padding-bottom: 5%;
   }
 `;
@@ -50,6 +51,7 @@ export const TripDetailsContainer = styled.div.attrs((props) => ({
   justify-content: ${(props) => props.justifyContent};
 
   @media only screen and (max-width: 599px) {
+    padding-top: 2%;
     max-width: 100%;
     height: auto;
   }
