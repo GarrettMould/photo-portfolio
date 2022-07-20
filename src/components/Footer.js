@@ -6,7 +6,7 @@ import {
 
 const Footer = (props) => {
   return (
-    <FooterContainer id="contact">
+    <FooterContainer padding={props.padding} id="contact">
       <FooterFlex>
         <FooterItem>
           <a href="https://www.facebook.com/garrett.mould/" target="_blank">

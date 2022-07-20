@@ -122,7 +122,7 @@ const App = (props) => {
         <GridSpacerMobile></GridSpacerMobile>
         <TripsPage handleClick={handleClick}></TripsPage>
         <GridSection></GridSection>
-        <Footer></Footer>
+        <Footer padding="10% 0% 7% 0%"></Footer>
       </>
     );
   } else if (currentIndex == 0) {
@@ -131,7 +131,7 @@ const App = (props) => {
         {" "}
         <BackButton clearState={clearState}></BackButton>
         <ChosenTripNhaTrang></ChosenTripNhaTrang>
-        <Footer></Footer>
+        <Footer padding="20% 0% 7% 0%"></Footer>
       </>
     );
   } else if (currentIndex == 1) {
@@ -140,7 +140,7 @@ const App = (props) => {
         {" "}
         <BackButton clearState={clearState}></BackButton>
         <ChosenTripPuLuong></ChosenTripPuLuong>
-        <Footer></Footer>
+        <Footer padding="17% 0% 7% 0%"></Footer>
       </>
     );
   } else if (currentIndex == 2) {
@@ -149,7 +149,7 @@ const App = (props) => {
         {" "}
         <BackButton clearState={clearState}></BackButton>
         <ChosenTripDaNang></ChosenTripDaNang>
-        <Footer></Footer>
+        <Footer padding="15% 0% 7% 0%"></Footer>
       </>
     );
   } else if (currentIndex == 3) {
@@ -158,7 +158,7 @@ const App = (props) => {
         {" "}
         <BackButton clearState={clearState}></BackButton>
         <ChosenTripHanoi></ChosenTripHanoi>
-        <Footer></Footer>
+        <Footer padding="17% 0% 7% 0%"></Footer>
       </>
     );
   } else {
@@ -168,7 +168,7 @@ const App = (props) => {
         <HomePage></HomePage>
         <TripsPage handleClick={handleClick}></TripsPage>
         <GridSection></GridSection>
-        <Footer></Footer>
+        <Footer padding="10% 0% 7% 0%"></Footer>
       </>
     );
   }
