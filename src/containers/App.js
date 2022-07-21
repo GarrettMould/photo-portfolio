@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useState, useEffect } from "react";
+import { useState, useRef } from "react";
 
 import {
   PhotoContainer,
@@ -32,15 +32,16 @@ const App = (props) => {
 
   const [currentIndex, setCurrentIndex] = useState(null);
 
+  const scrollRef = useRef();
+
   // Set state based on selected trip information
 
   console.log(currentIndex);
 
-  const scrollTop =
-    (() => {
-      window.scrollTo(0, 0);
-    },
-    []);
+  const scrollToTop = setTimeout(() => {
+    scrollRef.current.scrollIntoView({ behavior: "smooth" });
+    console.log("scrolled?");
+  }, 1000);
 
   const handleClick = (e) => {
     var id = e.target.id;
@@ -54,7 +55,7 @@ const App = (props) => {
     setFilm(photos[id].film);
     setPhotoGallery(photos[id].photos);
 
-    scrollTop();
+    scrollToTop();
   };
 
   // Clear State of selected trip information
@@ -175,6 +176,7 @@ const App = (props) => {
 
   return (
     <>
+      <div ref={scrollRef}></div>
       <StyledContainer>{display}</StyledContainer>
     </>
   );
