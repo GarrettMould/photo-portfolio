@@ -51,7 +51,7 @@ export const TripDetailsContainer = styled.div.attrs((props) => ({
   justify-content: ${(props) => props.justifyContent};
 
   @media only screen and (max-width: 599px) {
-    padding-top: 2%;
+    padding: 4% 0%;
     max-width: 100%;
     height: auto;
   }

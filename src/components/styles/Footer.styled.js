@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div.attrs((props) => ({
   padding: props.padding,
 }))`
-  padding: 5% 0% 3% 0%;
+  padding: 7% 0% 5% 0%;
 
   @media only screen and (max-width: 599px) {
     padding: ${(props) => props.padding};
