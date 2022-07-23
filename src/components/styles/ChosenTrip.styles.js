@@ -12,6 +12,7 @@ export const ChosenTripTitle = styled.div.attrs((props) => ({
 
   @media only screen and (max-width: 599px) {
     text-align: start;
+    padding-left: 0%;
   }
 `;
 export const ChosenTripDates = styled.div`
