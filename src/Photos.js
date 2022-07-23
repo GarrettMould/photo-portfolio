@@ -124,7 +124,7 @@ export var photos = [
     destination: "NHA TRANG, SINGAPORE, HOME",
     dates: "JUNE 8TH - JUNE 15TH",
     summary:
-      "THIS TRIP INCLUDED AN EVENTFUL THREE-DAY VACATION TO NHA TRANG, AS WELL AS MY FIRST TRIP OVERSEAS SINCE BEFORE THE PANDEMIC. I SAW A BIT OF EVERYTHING, FROM BEACHES, TO WATERFALLS, TO THE IMPRESSIVE SINGAPOREAN ARCHITECTURE. A FANTASTIC TRIP WITH PLENTY OF GOOD MEMORIES.",
+      "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
     cameraTitle: "KYOCERA ZOOMTEC 80",
     filmTitle: "FUJI SUPERIA 400",
     camera: KyoceraZoomtec80,
@@ -343,7 +343,7 @@ export var photos = [
     destination: "PU LUONG",
     dates: "MARCH 18TH - MARCH 20TH",
     summary:
-      "PU LUONG IS ONE OF MY FAVORITE GETAWAYS IN VIETNAM. NOT MANY PEOPLE KNOW ABOUT IT, SO IF YOU TRAVEL ON THE RIGHT WEEKEND, YOU HAVE THE WINDING MOUNTAIN ROADS ALL TO YOURSELF. DON'T BE FOOLED BY THE BAD PHOTOS, THE WATERFALLS ARE MUCH MORE STUNNING IN PERSON.",
+      "Pu Luong is one of my favorite getaways in Vietnam. Not many people know about it, so if you travel on the right weekend, you have the winding mountain roads all to yourself. Don't be fooled by the bad photos, the waterfalls are much more stunning in person.",
     cameraTitle: "KYOCERA ZOOMTEC 80",
     filmTitle: "KODAK GOLD 200",
     camera: KyoceraZoomtec80,
@@ -452,7 +452,7 @@ export var photos = [
     destination: "DA NANG & HOI AN",
     dates: "FEBRAUARY 2ND - FEBRUARY 5TH",
     summary:
-      "THESE PHOTOS ARE FROM A TET HOLIDAY TRIP TO DA NANG AND HOI AN. NOT A LOT OF BEACH ACTION IN DA NANG DUE TO THE CRUMMY WEATHER, BUT PLENTY OF EXPLORING AND LOTS OF GOOD PICTURES.",
+      "These photos are from a Tet holiday trip to Da Nang and Hoi an. Not a lot of beach action in Da Nang due to the crummy weather, but plenty of exploring and lots of good pictures.",
     cameraTitle: "CANON AUTOBOY LUNA XL",
     filmTitle: "KODAK GOLD 200",
     camera: CanonAutoboy,
@@ -601,7 +601,7 @@ export var photos = [
     destination: "HANOI",
     dates: "JANUARY 2022",
     summary:
-      "THESE PHOTOS WERE TAKEN AT VARIOUS PLACES AROUND HANOI DURING A WEEKEND OF EXPLORATION. THIS WAS THE FIRST ROLL OF FILM I HAD PURCHASED IN QUITE SOME TIME, AND THIS MARKS THE TIME THAT I GOT BACK INTO PHOTOGRAPHY.",
+      "These photos were taken at various places around Hanoi during a weekend of exploration. This was the first roll of film I had purchased in quite some time, and this marks the time that I got back into photography.",
     cameraTitle: "CANON AUTOBOY LUNA XL",
     filmTitle: "FUJI SUPERIA 400",
     camera: CanonAutoboy,

@@ -8,6 +8,7 @@ export const ChosenTripTitle = styled.div.attrs((props) => ({
   font-size: ${(props) => props.fontSize}%;
   font-weight: 600;
   line-height: ${(props) => props.lineHeight}%;
+  padding-left: 2%;
 
   @media only screen and (max-width: 599px) {
     text-align: start;
@@ -27,15 +28,14 @@ export const ChosenTripDates = styled.div`
 `;
 
 export const ChosenTripSummary = styled.div`
-  font-size: 130%;
+  font-size: 150%;
   line-height: 170%;
-  width: 70%;
+  width: 80%;
 
   @media only screen and (max-width: 599px) {
     font-size: 110%;
     line-height: 170%;
     width: 90%;
-    padding-top: 2%;
     padding-bottom: 5%;
   }
 `;

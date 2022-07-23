@@ -24,6 +24,11 @@ const Hanoi = photos[3];
 
 const HanoiPhotos = photos[3].photos;
 
+const lowerCaseSummary = Hanoi.summary;
+
+const final = lowerCaseSummary.toLowerCase();
+
+console.log(final);
 const ChosenTripHanoi = (props) => {
   return (
     <Media queries={{ small: { maxWidth: 599 } }}>
