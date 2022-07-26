@@ -21,9 +21,9 @@ import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const DaNang = allPhotos[2];
+const DaNang = allPhotos[3];
 
-const DaNangPhotos = allPhotos[2].photos;
+const DaNangPhotos = allPhotos[3].photos;
 
 const ChosenTripDaNang = (props) => {
   return (

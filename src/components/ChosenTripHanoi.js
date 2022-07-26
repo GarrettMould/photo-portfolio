@@ -20,9 +20,9 @@ import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const Hanoi = allPhotos[3];
+const Hanoi = allPhotos[4];
 
-const HanoiPhotos = allPhotos[3].photos;
+const HanoiPhotos = allPhotos[4].photos;
 
 const lowerCaseSummary = Hanoi.summary;
 

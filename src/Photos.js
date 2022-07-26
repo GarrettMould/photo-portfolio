@@ -118,9 +118,217 @@ import Hanoi18 from "../src/images/Hanoi/000058.jpg";
 import Hanoi19 from "../src/images/Hanoi/000059.jpg";
 import Hanoi20 from "../src/images/Hanoi/000060.jpg";
 
+import SCTitlePhoto from "../src/images/ChosenTripHomeImages/southCarolina.jpg";
+import SC1 from "../src/images/SouthCarolina/001.jpg";
+import SC2 from "../src/images/SouthCarolina/002.jpg";
+import SC3 from "../src/images/SouthCarolina/003.jpg";
+import SC4 from "../src/images/SouthCarolina/004.jpg";
+import SC5 from "../src/images/SouthCarolina/005.jpg";
+import SC6 from "../src/images/SouthCarolina/006.jpg";
+import SC7 from "../src/images/SouthCarolina/007.jpg";
+import SC8 from "../src/images/SouthCarolina/008.jpg";
+import SC9 from "../src/images/SouthCarolina/009.jpg";
+import SC10 from "../src/images/SouthCarolina/010.jpg";
+import SC11 from "../src/images/SouthCarolina/011.jpg";
+import SC12 from "../src/images/SouthCarolina/012.jpg";
+import SC13 from "../src/images/SouthCarolina/013.jpg";
+import SC14 from "../src/images/SouthCarolina/014.jpg";
+import SC15 from "../src/images/SouthCarolina/015.jpg";
+import SC16 from "../src/images/SouthCarolina/016.jpg";
+import SC17 from "../src/images/SouthCarolina/017.jpg";
+import SC18 from "../src/images/SouthCarolina/018.jpg";
+import SC19 from "../src/images/SouthCarolina/019.jpg";
+import SC20 from "../src/images/SouthCarolina/020.jpg";
+import SC21 from "../src/images/SouthCarolina/021.jpg";
+import SC22 from "../src/images/SouthCarolina/022.jpg";
+import SC23 from "../src/images/SouthCarolina/023.jpg";
+import SC24 from "../src/images/SouthCarolina/024.jpg";
+import SC25 from "../src/images/SouthCarolina/025.jpg";
+import SC26 from "../src/images/SouthCarolina/026.jpg";
+import SC27 from "../src/images/SouthCarolina/027.jpg";
+import SC28 from "../src/images/SouthCarolina/028.jpg";
+import SC29 from "../src/images/SouthCarolina/029.jpg";
+import SC30 from "../src/images/SouthCarolina/030.jpg";
+import SC31 from "../src/images/SouthCarolina/031.jpg";
+import SC32 from "../src/images/SouthCarolina/032.jpg";
+
 export var allPhotos = [
   {
     id: 0,
+    destination: "SOUTH CAROLINA AND HANOI",
+    dates: "JULY 1ST - JULY 24TH",
+    summary:
+      "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
+    cameraTitle: "KYOCERA ZOOMTEC 80",
+    filmTitle: "FUJI SUPERIA 400",
+    camera: KyoceraZoomtec80,
+    film: FujiSuperia400,
+    titlePhoto: SCTitlePhoto,
+    photos: [
+      {
+        src: SC1,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC2,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC3,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC4,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC5,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: SC6,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC7,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC8,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC9,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC10,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC11,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC12,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC13,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: SC14,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC15,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC16,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC17,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC18,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC19,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC20,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC21,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC22,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC23,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC24,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: SC25,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC26,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC27,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC28,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC29,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC30,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC31,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: SC32,
+        width: 1,
+        height: 1,
+      },
+    ],
+  },
+  {
+    id: 1,
     destination: "NHA TRANG, SINGAPORE, HOME",
     dates: "JUNE 8TH - JUNE 15TH",
     summary:
@@ -339,7 +547,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     destination: "PU LUONG",
     dates: "MARCH 18TH - MARCH 20TH",
     summary:
@@ -448,7 +656,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     destination: "DA NANG & HOI AN",
     dates: "FEBRAUARY 2ND - FEBRUARY 5TH",
     summary:
@@ -597,7 +805,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     destination: "HANOI",
     dates: "JANUARY 2022",
     summary:

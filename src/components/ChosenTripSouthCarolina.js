@@ -7,7 +7,6 @@ import {
 
 import { FlexRowCenter } from "./styles/Flex.styles";
 
-import HomeImage from "../images/ChosenTripHomeImages/hanoi.jpg";
 import {
   ChosenTripTitle,
   ChosenTripDates,
@@ -21,11 +20,11 @@ import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const NhaTrang = allPhotos[1];
+const SouthCarolina = allPhotos[0];
 
-const NhaTrangPhotos = allPhotos[1].photos;
+const SouthCarolinaPhotos = allPhotos[0].photos;
 
-const ChosenTripNhaTrang = (props) => {
+const ChosenTripSouthCarolina = (props) => {
   return (
     <Media queries={{ small: { maxWidth: 599 } }}>
       {(matches) =>
@@ -34,16 +33,16 @@ const ChosenTripNhaTrang = (props) => {
             <GridContainer>
               <GridRow>
                 <GridColumn size="12">
-                  <Image src={allPhotos[0].titlePhoto}></Image>
+                  <Image src={SouthCarolina.titlePhoto}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>
                 <GridColumn size="12">
                   <TripDetailsContainer alignItems="flex-start">
-                    <ChosenTripTitle fontSize={330}>
-                      {NhaTrang.destination}
+                    <ChosenTripTitle fontSize={320}>
+                      {SouthCarolina.destination}
                     </ChosenTripTitle>
-                    <ChosenTripDates>{NhaTrang.dates}</ChosenTripDates>
+                    <ChosenTripDates>{SouthCarolina.dates}</ChosenTripDates>
                   </TripDetailsContainer>
                 </GridColumn>
               </GridRow>
@@ -53,58 +52,67 @@ const ChosenTripNhaTrang = (props) => {
                     alignItems="flex-start"
                     justifyContent="flex-start"
                   >
-                    <ChosenTripSummary>{NhaTrang.summary}</ChosenTripSummary>
+                    <ChosenTripSummary>
+                      {SouthCarolina.summary}
+                    </ChosenTripSummary>
                   </TripDetailsContainer>
                 </GridColumn>
               </GridRow>
               <GridRow>
                 <GridColumn size="12">
-                  <Image src={NhaTrangPhotos[15].src}></Image>
+                  <Image src={SouthCarolinaPhotos[12].src}></Image>
+                </GridColumn>
+              </GridRow>
+
+              <GridRow>
+                <GridColumn size="6">
+                  <Image src={SouthCarolinaPhotos[26].src}></Image>
+                </GridColumn>
+                <GridColumn size="6">
+                  <Image src={SouthCarolinaPhotos[20].src}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>
                 <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[38].src}></Image>
+                  <Image src={SouthCarolinaPhotos[13].src}></Image>
                 </GridColumn>
                 <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[37].src}></Image>
-                </GridColumn>
-              </GridRow>
-              <GridRow>
-                <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[2].src}></Image>
-                </GridColumn>
-                <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[17].src}></Image>
-                </GridColumn>
-              </GridRow>
-              <GridRow>
-                <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[25].src}></Image>
-                </GridColumn>
-                <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[6].src}></Image>
+                  <Image src={SouthCarolinaPhotos[21].src}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>
                 <GridColumn size="12">
-                  <Image src={NhaTrangPhotos[26].src}></Image>
+                  <Image src={SouthCarolinaPhotos[15].src}></Image>
+                </GridColumn>
+              </GridRow>
+
+              <GridRow>
+                <GridColumn size="6">
+                  <Image src={SouthCarolinaPhotos[24].src}></Image>
+                </GridColumn>
+                <GridColumn size="6">
+                  <Image src={SouthCarolinaPhotos[27].src}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>
                 <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[36].src}></Image>
+                  <Image src={SouthCarolinaPhotos[14].src}></Image>
                 </GridColumn>
                 <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[19].src}></Image>
+                  <Image src={SouthCarolinaPhotos[19].src}></Image>
+                </GridColumn>
+              </GridRow>
+              <GridRow>
+                <GridColumn size="12">
+                  <Image src={SouthCarolinaPhotos[16].src}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>
                 <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[30].src}></Image>
+                  <Image src={SouthCarolinaPhotos[6].src}></Image>
                 </GridColumn>
                 <GridColumn size="6">
-                  <Image src={NhaTrangPhotos[4].src}></Image>
+                  <Image src={SouthCarolinaPhotos[29].src}></Image>
                 </GridColumn>
               </GridRow>
             </GridContainer>
@@ -113,15 +121,20 @@ const ChosenTripNhaTrang = (props) => {
           <GridContainer>
             <GridRow>
               <GridColumn size="8">
-                <Image src={NhaTrang.titlePhoto}></Image>
+                <Image src={SouthCarolina.titlePhoto}></Image>
               </GridColumn>
               <GridColumn size="4">
                 <TripDetailsContainer alignItems="flex-end">
-                  <ChosenTripTitle fontSize={380}>
-                    {NhaTrang.destination}
+                  <ChosenTripTitle lineHeight={150} fontSize={450}>
+                    {SouthCarolina.destination}
                   </ChosenTripTitle>
-                  <ChosenTripDates>{NhaTrang.dates}</ChosenTripDates>
+                  <ChosenTripDates>{SouthCarolina.dates}</ChosenTripDates>
                 </TripDetailsContainer>
+              </GridColumn>
+            </GridRow>
+            <GridRow>
+              <GridColumn size="12">
+                <Image src={SouthCarolinaPhotos[12].src}></Image>
               </GridColumn>
             </GridRow>
             <GridRow>
@@ -130,56 +143,62 @@ const ChosenTripNhaTrang = (props) => {
                   alignItems="center"
                   justifyContent="center"
                 >
-                  <ChosenTripSummary>{NhaTrang.summary}</ChosenTripSummary>
+                  <ChosenTripSummary>{SouthCarolina.summary}</ChosenTripSummary>
                 </TripDetailsContainer>
               </GridColumn>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[15].src}></Image>
+                <Image src={SouthCarolinaPhotos[8].src}></Image>
               </GridColumn>
             </GridRow>
             <GridRow>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[38].src}></Image>
+                <Image src={SouthCarolinaPhotos[26].src}></Image>
               </GridColumn>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[37].src}></Image>
-              </GridColumn>
-            </GridRow>
-            <GridRow>
-              <GridColumn size="6">
-                <Image src={NhaTrangPhotos[2].src}></Image>
-              </GridColumn>
-              <GridColumn size="6">
-                <Image src={NhaTrangPhotos[17].src}></Image>
+                <Image src={SouthCarolinaPhotos[20].src}></Image>
               </GridColumn>
             </GridRow>
             <GridRow>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[25].src}></Image>
+                <Image src={SouthCarolinaPhotos[13].src}></Image>
               </GridColumn>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[6].src}></Image>
+                <Image src={SouthCarolinaPhotos[21].src}></Image>
               </GridColumn>
             </GridRow>
             <GridRow>
               <GridColumn size="12">
-                <Image src={NhaTrangPhotos[26].src}></Image>
+                <Image src={SouthCarolinaPhotos[15].src}></Image>
+              </GridColumn>
+            </GridRow>
+
+            <GridRow>
+              <GridColumn size="6">
+                <Image src={SouthCarolinaPhotos[24].src}></Image>
+              </GridColumn>
+              <GridColumn size="6">
+                <Image src={SouthCarolinaPhotos[27].src}></Image>
               </GridColumn>
             </GridRow>
             <GridRow>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[36].src}></Image>
+                <Image src={SouthCarolinaPhotos[14].src}></Image>
               </GridColumn>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[19].src}></Image>
+                <Image src={SouthCarolinaPhotos[19].src}></Image>
+              </GridColumn>
+            </GridRow>
+            <GridRow>
+              <GridColumn size="12">
+                <Image src={SouthCarolinaPhotos[16].src}></Image>
               </GridColumn>
             </GridRow>
             <GridRow>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[30].src}></Image>
+                <Image src={SouthCarolinaPhotos[6].src}></Image>
               </GridColumn>
               <GridColumn size="6">
-                <Image src={NhaTrangPhotos[4].src}></Image>
+                <Image src={SouthCarolinaPhotos[29].src}></Image>
               </GridColumn>
             </GridRow>
           </GridContainer>
@@ -189,4 +208,4 @@ const ChosenTripNhaTrang = (props) => {
   );
 };
 
-export default ChosenTripNhaTrang;
+export default ChosenTripSouthCarolina;

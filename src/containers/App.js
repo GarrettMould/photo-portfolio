@@ -13,6 +13,7 @@ import TripsPage from "../components/TripsPage";
 import Header from "../elements/Header";
 import Footer from "../components/Footer";
 import GridSection from "../components/GridSection";
+import ChosenTripSouthCarolina from "../components/ChosenTripSouthCarolina";
 import ChosenTripNhaTrang from "../components/ChosenTripNhaTrang";
 import ChosenTripPuLuong from "../components/ChosenTripPuLuong";
 import ChosenTripDaNang from "../components/ChosenTripDaNang";
@@ -133,11 +134,20 @@ const App = (props) => {
       <>
         {" "}
         <BackButton clearState={clearState}></BackButton>
+        <ChosenTripSouthCarolina></ChosenTripSouthCarolina>
+        <Footer padding="25% 0% 7% 0%"></Footer>
+      </>
+    );
+  } else if (currentIndex == 1) {
+    display = (
+      <>
+        {" "}
+        <BackButton clearState={clearState}></BackButton>
         <ChosenTripNhaTrang></ChosenTripNhaTrang>
         <Footer padding="20% 0% 7% 0%"></Footer>
       </>
     );
-  } else if (currentIndex == 1) {
+  } else if (currentIndex == 2) {
     display = (
       <>
         {" "}
@@ -146,7 +156,7 @@ const App = (props) => {
         <Footer padding="17% 0% 7% 0%"></Footer>
       </>
     );
-  } else if (currentIndex == 2) {
+  } else if (currentIndex == 3) {
     display = (
       <>
         {" "}
@@ -155,7 +165,7 @@ const App = (props) => {
         <Footer padding="15% 0% 7% 0%"></Footer>
       </>
     );
-  } else if (currentIndex == 3) {
+  } else if (currentIndex == 4) {
     display = (
       <>
         {" "}

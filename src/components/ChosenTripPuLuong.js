@@ -20,9 +20,9 @@ import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const PuLuong = allPhotos[1];
+const PuLuong = allPhotos[2];
 
-const PuLuongPhotos = allPhotos[1].photos;
+const PuLuongPhotos = allPhotos[2].photos;
 
 const ChosenTripPuLuong = (props) => {
   return (
