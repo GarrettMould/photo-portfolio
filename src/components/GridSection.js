@@ -21,6 +21,10 @@ import GridPhoto8 from "../images/gridPhoto8.jpg";
 import GridPhoto9 from "../images/gridPhoto9.jpg";
 import GridPhoto10 from "../images/gridPhoto10.JPG";
 import GridPhoto11 from "../images/gridPhoto11.jpg";
+import GridPhoto12 from "../images/gridPhoto12.jpg";
+import GridPhoto13 from "../images/gridPhoto13.jpg";
+import GridPhoto14 from "../images/gridPhoto14.jpg";
+import GridPhoto15 from "../images/gridPhoto15.jpg";
 
 import Media from "react-media";
 
@@ -62,6 +66,22 @@ const GridSection = (props) => {
             <GridRow>
               <GridColumn size="12">
                 <Image src={GridPhoto10}></Image>
+              </GridColumn>
+            </GridRow>
+            <GridRow>
+              <GridColumn size="6">
+                <Image src={GridPhoto14}></Image>
+              </GridColumn>
+              <GridColumn size="6">
+                <Image src={GridPhoto15}></Image>
+              </GridColumn>
+            </GridRow>
+            <GridRow>
+              <GridColumn size="6">
+                <Image src={GridPhoto12}></Image>
+              </GridColumn>
+              <GridColumn size="6">
+                <Image src={GridPhoto13}></Image>
               </GridColumn>
             </GridRow>
           </GridContainer>
@@ -116,6 +136,22 @@ const GridSection = (props) => {
             <GridRow>
               <GridColumn size="12">
                 <Image src={GridPhoto10}></Image>
+              </GridColumn>
+            </GridRow>
+            <GridRow>
+              <GridColumn size="6">
+                <Image src={GridPhoto14}></Image>
+              </GridColumn>
+              <GridColumn size="6">
+                <Image src={GridPhoto15}></Image>
+              </GridColumn>
+            </GridRow>
+            <GridRow>
+              <GridColumn size="6">
+                <Image src={GridPhoto12}></Image>
+              </GridColumn>
+              <GridColumn size="6">
+                <Image src={GridPhoto13}></Image>
               </GridColumn>
             </GridRow>
           </GridContainer>
