@@ -11,14 +11,14 @@ import { FlexColumn } from "./styles/Flex.styles";
 
 import { Padding } from "./styles/Container.styles";
 
-import { photos } from "../Photos";
+import { allPhotos } from "../Photos";
 
 const TripsTimeline = (props) => {
-  const mappedTrips = photos.map((trip, i) => {
+  const mappedTrips = allPhotos.map((trip, i) => {
     return (
       <button onClick={props.handleClick}>
-        <TripContainer>
-          <TripLink>
+        <TripContainer id={i}>
+          <TripLink id={i}>
             <TripTitle id={i}>{trip.destination}</TripTitle>
             <TripDates id={i}>{trip.dates}</TripDates>
           </TripLink>

@@ -16,13 +16,13 @@ import {
   CameraInformation,
 } from "./styles/ChosenTrip.styles";
 
-import { photos } from "../Photos";
+import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const PuLuong = photos[1];
+const PuLuong = allPhotos[1];
 
-const PuLuongPhotos = photos[1].photos;
+const PuLuongPhotos = allPhotos[1].photos;
 
 const ChosenTripPuLuong = (props) => {
   return (

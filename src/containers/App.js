@@ -7,7 +7,7 @@ import {
 } from "../elements/styles/SelectedTripDetails.styled";
 
 import { StyledContainer } from "../components/styles/Container.styles";
-import { photos } from "../Photos";
+import { allPhotos } from "../Photos";
 import HomePage from "../components/HomePage";
 import TripsPage from "../components/TripsPage";
 import Header from "../elements/Header";
@@ -44,16 +44,18 @@ const App = (props) => {
   }, 1000);
 
   const handleClick = (e) => {
+    console.log(e.target);
     var id = e.target.id;
+    console.log(id);
     setCurrentIndex(id);
-    setDestination(photos[id].destination);
-    setDates(photos[id].dates);
-    setSummary(photos[id].summary);
-    setCameraTitle(photos[id].cameraTitle);
-    setFilmTitle(photos[id].filmTitle);
-    setCamera(photos[id].camera);
-    setFilm(photos[id].film);
-    setPhotoGallery(photos[id].photos);
+    setDestination(allPhotos[id].destination);
+    setDates(allPhotos[id].dates);
+    setSummary(allPhotos[id].summary);
+    setCameraTitle(allPhotos[id].cameraTitle);
+    setFilmTitle(allPhotos[id].filmTitle);
+    setCamera(allPhotos[id].camera);
+    setFilm(allPhotos[id].film);
+    setPhotoGallery(allPhotos[id].photos);
 
     scrollToTop();
   };

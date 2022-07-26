@@ -17,13 +17,13 @@ import {
   CameraInformation,
 } from "./styles/ChosenTrip.styles";
 
-import { photos } from "../Photos";
+import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const DaNang = photos[2];
+const DaNang = allPhotos[2];
 
-const DaNangPhotos = photos[2].photos;
+const DaNangPhotos = allPhotos[2].photos;
 
 const ChosenTripDaNang = (props) => {
   return (
@@ -34,7 +34,7 @@ const ChosenTripDaNang = (props) => {
             <GridContainer>
               <GridRow>
                 <GridColumn size="12">
-                  <Image src={photos[1].titlePhoto}></Image>
+                  <Image src={DaNang.titlePhoto}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>

@@ -16,13 +16,13 @@ import {
   CameraInformation,
 } from "./styles/ChosenTrip.styles";
 
-import { photos } from "../Photos";
+import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const Hanoi = photos[3];
+const Hanoi = allPhotos[3];
 
-const HanoiPhotos = photos[3].photos;
+const HanoiPhotos = allPhotos[3].photos;
 
 const lowerCaseSummary = Hanoi.summary;
 
@@ -38,13 +38,13 @@ const ChosenTripHanoi = (props) => {
             <GridContainer>
               <GridRow>
                 <GridColumn size="12">
-                  <Image src={photos[3].titlePhoto}></Image>
+                  <Image src={allPhotos[3].titlePhoto}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>
                 <GridColumn size="12">
                   <TripDetailsContainer alignItems="flex-start">
-                    <ChosenTripTitle fontSize={330}>
+                    <ChosenTripTitle fontSize={400}>
                       {Hanoi.destination}
                     </ChosenTripTitle>
                     <ChosenTripDates>{Hanoi.dates}</ChosenTripDates>

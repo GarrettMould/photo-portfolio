@@ -17,13 +17,13 @@ import {
   CameraInformation,
 } from "./styles/ChosenTrip.styles";
 
-import { photos } from "../Photos";
+import { allPhotos } from "../Photos";
 
 import Media from "react-media";
 
-const NhaTrang = photos[0];
+const NhaTrang = allPhotos[0];
 
-const NhaTrangPhotos = photos[0].photos;
+const NhaTrangPhotos = allPhotos[0].photos;
 
 const ChosenTripNhaTrang = (props) => {
   return (
@@ -34,7 +34,7 @@ const ChosenTripNhaTrang = (props) => {
             <GridContainer>
               <GridRow>
                 <GridColumn size="12">
-                  <Image src={photos[0].titlePhoto}></Image>
+                  <Image src={allPhotos[0].titlePhoto}></Image>
                 </GridColumn>
               </GridRow>
               <GridRow>
@@ -113,7 +113,7 @@ const ChosenTripNhaTrang = (props) => {
           <GridContainer>
             <GridRow>
               <GridColumn size="8">
-                <Image src={photos[0].titlePhoto}></Image>
+                <Image src={NhaTrang.titlePhoto}></Image>
               </GridColumn>
               <GridColumn size="4">
                 <TripDetailsContainer alignItems="flex-end">

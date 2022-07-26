@@ -118,7 +118,7 @@ import Hanoi18 from "../src/images/Hanoi/000058.jpg";
 import Hanoi19 from "../src/images/Hanoi/000059.jpg";
 import Hanoi20 from "../src/images/Hanoi/000060.jpg";
 
-export var photos = [
+export var allPhotos = [
   {
     id: 0,
     destination: "NHA TRANG, SINGAPORE, HOME",
