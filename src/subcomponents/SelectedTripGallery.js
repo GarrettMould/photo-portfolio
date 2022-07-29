@@ -10,7 +10,7 @@ const SelectedTripGallery = (props) => {
     console.log(photos[0].src)
     return (
     <NewGridContainer>
-        <TripDetailsCell><SelectedTripDetails></SelectedTripDetails></TripDetailsCell>
+        <TripDetailsCell><SelectedTripDetails tripIndex={props.tripIndex}></SelectedTripDetails></TripDetailsCell>
         <GridItem gridColumnStart={6}  gridColumnEnd={8} gridRowStart={1} ><Image maxWidth="100%" src={photos[20].src}></Image></GridItem> 
         <GridItem gridColumnStart={1} gridColumnEnd={5} gridRowStart={4} ><Image maxWidth="100%" src={photos[12].src}></Image></GridItem> 
         <GridItem gridColumnStart={1} gridColumnEnd={2} gridRowStart={7} ><Image maxWidth="100%" src={photos[13].src}></Image></GridItem>

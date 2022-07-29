@@ -4,119 +4,119 @@ import KyoceraZoomtec80 from "../src/images/kyocera_zoomtec_80.png";
 import FujiSuperia400 from "../src/images/fuji_color_superia_400.png";
 
 import PuLuongTitlePhoto from "../src/images/ChosenTripHomeImages/puLuong.jpg";
-import PuLuong1 from "../src/images/PuLuong/Image_26273.jpg";
-import PuLuong2 from "../src/images/PuLuong/Image_26274.jpg";
-import PuLuong3 from "../src/images/PuLuong/Image_26275.jpg";
-import PuLuong4 from "../src/images/PuLuong/Image_26276.jpg";
-import PuLuong5 from "../src/images/PuLuong/Image_26277.jpg";
-import PuLuong6 from "../src/images/PuLuong/Image_26278.jpg";
-import PuLuong7 from "../src/images/PuLuong/Image_26279.jpg";
-import PuLuong8 from "../src/images/PuLuong/Image_26280.jpg";
-import PuLuong9 from "../src/images/PuLuong/Image_26281.jpg";
-import PuLuong10 from "../src/images/PuLuong/Image_26282.jpg";
-import PuLuong11 from "../src/images/PuLuong/Image_26283.jpg";
-import PuLuong12 from "../src/images/PuLuong/Image_26284.jpg";
-import PuLuong13 from "../src/images/PuLuong/Image_26285.jpg";
-import PuLuong14 from "../src/images/PuLuong/Image_26286.jpg";
-import PuLuong15 from "../src/images/PuLuong/Image_26287.jpg";
-import PuLuong16 from "../src/images/PuLuong/Image_26288.jpg";
-import PuLuong17 from "../src/images/PuLuong/Image_26289.jpg";
-import PuLuong18 from "../src/images/PuLuong/Image_26290.jpg";
-import PuLuong19 from "../src/images/PuLuong/Image_26291.jpg";
+import PuLuong1 from "../src/images/PuLuong/001.jpg";
+import PuLuong2 from "../src/images/PuLuong/002.jpg";
+import PuLuong3 from "../src/images/PuLuong/003.jpg";
+import PuLuong4 from "../src/images/PuLuong/004.jpg";
+import PuLuong5 from "../src/images/PuLuong/005.jpg";
+import PuLuong6 from "../src/images/PuLuong/006.jpg";
+import PuLuong7 from "../src/images/PuLuong/007.jpg";
+import PuLuong8 from "../src/images/PuLuong/008.jpg";
+import PuLuong9 from "../src/images/PuLuong/009.jpg";
+import PuLuong10 from "../src/images/PuLuong/010.jpg";
+import PuLuong11 from "../src/images/PuLuong/011.jpg";
+import PuLuong12 from "../src/images/PuLuong/012.jpg";
+import PuLuong13 from "../src/images/PuLuong/013.jpg";
+import PuLuong14 from "../src/images/PuLuong/014.jpg";
+import PuLuong15 from "../src/images/PuLuong/015.jpg";
+import PuLuong16 from "../src/images/PuLuong/016.jpg";
+import PuLuong17 from "../src/images/PuLuong/017.jpg";
+import PuLuong18 from "../src/images/PuLuong/018.jpg";
+import PuLuong19 from "../src/images/PuLuong/019.jpg";
 
 import NhaTrangTitlePhoto from "../src/images/ChosenTripHomeImages/nhaTrang.JPG";
-import NhaTrang1 from "../src/images/NhaTrang/R1-03344-000E.JPG";
-import NhaTrang2 from "../src/images/NhaTrang/R1-03344-0001.JPG";
-import NhaTrang3 from "../src/images/NhaTrang/R1-03344-0002.JPG";
-import NhaTrang4 from "../src/images/NhaTrang/R1-03344-0003.JPG";
-import NhaTrang5 from "../src/images/NhaTrang/R1-03344-0004.JPG";
-import NhaTrang6 from "../src/images/NhaTrang/R1-03344-0005.JPG";
-import NhaTrang7 from "../src/images/NhaTrang/R1-03344-0006.JPG";
-import NhaTrang8 from "../src/images/NhaTrang/R1-03344-0007.JPG";
-import NhaTrang9 from "../src/images/NhaTrang/R1-03344-0008.JPG";
-import NhaTrang10 from "../src/images/NhaTrang/R1-03344-0009.JPG";
-import NhaTrang11 from "../src/images/NhaTrang/R1-03344-0010.JPG";
-import NhaTrang12 from "../src/images/NhaTrang/R1-03344-0011.JPG";
-import NhaTrang13 from "../src/images/NhaTrang/R1-03344-0012.JPG";
-import NhaTrang14 from "../src/images/NhaTrang/R1-03344-0013.JPG";
-import NhaTrang15 from "../src/images/NhaTrang/R1-03344-0014.JPG";
-import NhaTrang16 from "../src/images/NhaTrang/R1-03344-0015.JPG";
-import NhaTrang17 from "../src/images/NhaTrang/R1-03344-0016.JPG";
-import NhaTrang18 from "../src/images/NhaTrang/R1-03344-0017.JPG";
-import NhaTrang19 from "../src/images/NhaTrang/R1-03344-0018.JPG";
-import NhaTrang20 from "../src/images/NhaTrang/R1-03344-0019.JPG";
-import NhaTrang21 from "../src/images/NhaTrang/R1-03344-0020.JPG";
-import NhaTrang22 from "../src/images/NhaTrang/R1-03344-0021.JPG";
-import NhaTrang23 from "../src/images/NhaTrang/R1-03344-0022.JPG";
-import NhaTrang24 from "../src/images/NhaTrang/R1-03344-0023.JPG";
-import NhaTrang25 from "../src/images/NhaTrang/R1-03344-0024.JPG";
-import NhaTrang26 from "../src/images/NhaTrang/R1-03344-0025.JPG";
-import NhaTrang27 from "../src/images/NhaTrang/R1-03344-0026.JPG";
-import NhaTrang28 from "../src/images/NhaTrang/R1-03344-0027.JPG";
-import NhaTrang29 from "../src/images/NhaTrang/R1-03344-0028.JPG";
-import NhaTrang30 from "../src/images/NhaTrang/R1-03344-0029.JPG";
-import NhaTrang31 from "../src/images/NhaTrang/R1-03344-0030.JPG";
-import NhaTrang32 from "../src/images/NhaTrang/R1-03344-0031.JPG";
-import NhaTrang33 from "../src/images/NhaTrang/R1-03344-0032.JPG";
-import NhaTrang34 from "../src/images/NhaTrang/R1-03344-0033.JPG";
-import NhaTrang35 from "../src/images/NhaTrang/R1-03344-0034.JPG";
-import NhaTrang36 from "../src/images/NhaTrang/R1-03344-0035.JPG";
-import NhaTrang37 from "../src/images/NhaTrang/R1-03344-0036.JPG";
-import NhaTrang38 from "../src/images/NhaTrang/R1-03344-0037.jpg";
-import NhaTrang39 from "../src/images/NhaTrang/R1-03344-0038.jpg";
-import NhaTrang40 from "../src/images/NhaTrang/R1-03344-0039.jpg";
-import NhaTrang41 from "../src/images/NhaTrang/R1-03344-0040.JPG";
+import NhaTrang1 from "../src/images/NhaTrang/041.jpg";
+import NhaTrang2 from "../src/images/NhaTrang/001.JPG";
+import NhaTrang3 from "../src/images/NhaTrang/002.JPG";
+import NhaTrang4 from "../src/images/NhaTrang/003.JPG";
+import NhaTrang5 from "../src/images/NhaTrang/004.JPG";
+import NhaTrang6 from "../src/images/NhaTrang/005.JPG";
+import NhaTrang7 from "../src/images/NhaTrang/006.JPG";
+import NhaTrang8 from "../src/images/NhaTrang/007.JPG";
+import NhaTrang9 from "../src/images/NhaTrang/008.JPG";
+import NhaTrang10 from "../src/images/NhaTrang/009.JPG";
+import NhaTrang11 from "../src/images/NhaTrang/010.JPG";
+import NhaTrang12 from "../src/images/NhaTrang/011.JPG";
+import NhaTrang13 from "../src/images/NhaTrang/012.JPG";
+import NhaTrang14 from "../src/images/NhaTrang/013.JPG";
+import NhaTrang15 from "../src/images/NhaTrang/014.JPG";
+import NhaTrang16 from "../src/images/NhaTrang/015.JPG";
+import NhaTrang17 from "../src/images/NhaTrang/016.JPG";
+import NhaTrang18 from "../src/images/NhaTrang/017.JPG";
+import NhaTrang19 from "../src/images/NhaTrang/018.JPG";
+import NhaTrang20 from "../src/images/NhaTrang/019.JPG";
+import NhaTrang21 from "../src/images/NhaTrang/020.JPG";
+import NhaTrang22 from "../src/images/NhaTrang/021.JPG";
+import NhaTrang23 from "../src/images/NhaTrang/022.JPG";
+import NhaTrang24 from "../src/images/NhaTrang/023.JPG";
+import NhaTrang25 from "../src/images/NhaTrang/024.JPG";
+import NhaTrang26 from "../src/images/NhaTrang/025.JPG";
+import NhaTrang27 from "../src/images/NhaTrang/026.JPG";
+import NhaTrang28 from "../src/images/NhaTrang/027.JPG";
+import NhaTrang29 from "../src/images/NhaTrang/028.JPG";
+import NhaTrang30 from "../src/images/NhaTrang/029.JPG";
+import NhaTrang31 from "../src/images/NhaTrang/030.JPG";
+import NhaTrang32 from "../src/images/NhaTrang/031.JPG";
+import NhaTrang33 from "../src/images/NhaTrang/032.JPG";
+import NhaTrang34 from "../src/images/NhaTrang/033.JPG";
+import NhaTrang35 from "../src/images/NhaTrang/034.JPG";
+import NhaTrang36 from "../src/images/NhaTrang/035.JPG";
+import NhaTrang37 from "../src/images/NhaTrang/036.JPG";
+import NhaTrang38 from "../src/images/NhaTrang/037.JPG";
+import NhaTrang39 from "../src/images/NhaTrang/038.JPG";
+import NhaTrang40 from "../src/images/NhaTrang/039.jpg";
+import NhaTrang41 from "../src/images/NhaTrang/040.jpg";
 
 import DaNangTitlePhoto from "../src/images/ChosenTripHomeImages/daNang.jpg";
-import DaNang1 from "../src/images/DaNang/000015.jpg";
-import DaNang2 from "../src/images/DaNang/000016.jpg";
-import DaNang3 from "../src/images/DaNang/000017.jpg";
-import DaNang4 from "../src/images/DaNang/000018.jpg";
-import DaNang5 from "../src/images/DaNang/000019.jpg";
-import DaNang6 from "../src/images/DaNang/000020.jpg";
-import DaNang7 from "../src/images/DaNang/000021.jpg";
-import DaNang8 from "../src/images/DaNang/000022.jpg";
-import DaNang9 from "../src/images/DaNang/000023.jpg";
-import DaNang10 from "../src/images/DaNang/000024.jpg";
-import DaNang11 from "../src/images/DaNang/000025.jpg";
-import DaNang12 from "../src/images/DaNang/000026.jpg";
-import DaNang13 from "../src/images/DaNang/000027.jpg";
-import DaNang14 from "../src/images/DaNang/000028.jpg";
-import DaNang15 from "../src/images/DaNang/000029.jpg";
-import DaNang16 from "../src/images/DaNang/000030.jpg";
-import DaNang17 from "../src/images/DaNang/000031.jpg";
-import DaNang18 from "../src/images/DaNang/000032.jpg";
-import DaNang19 from "../src/images/DaNang/000033.jpg";
-import DaNang20 from "../src/images/DaNang/000034.jpg";
-import DaNang21 from "../src/images/DaNang/000035.jpg";
-import DaNang22 from "../src/images/DaNang/000036.jpg";
-import DaNang23 from "../src/images/DaNang/000037.jpg";
-import DaNang24 from "../src/images/DaNang/000038.jpg";
-import DaNang25 from "../src/images/DaNang/000039.jpg";
-import DaNang26 from "../src/images/DaNang/000040.jpg";
-import DaNang27 from "../src/images/DaNang/000041.jpg";
+import DaNang1 from "../src/images/DaNang/001.jpg";
+import DaNang2 from "../src/images/DaNang/002.jpg";
+import DaNang3 from "../src/images/DaNang/003.jpg";
+import DaNang4 from "../src/images/DaNang/004.jpg";
+import DaNang5 from "../src/images/DaNang/005.jpg";
+import DaNang6 from "../src/images/DaNang/006.jpg";
+import DaNang7 from "../src/images/DaNang/007.jpg";
+import DaNang8 from "../src/images/DaNang/008.jpg";
+import DaNang9 from "../src/images/DaNang/009.jpg";
+import DaNang10 from "../src/images/DaNang/010.jpg";
+import DaNang11 from "../src/images/DaNang/012.jpg";
+import DaNang12 from "../src/images/DaNang/013.jpg";
+import DaNang13 from "../src/images/DaNang/014.jpg";
+import DaNang14 from "../src/images/DaNang/015.jpg";
+import DaNang15 from "../src/images/DaNang/016.jpg";
+import DaNang16 from "../src/images/DaNang/017.jpg";
+import DaNang17 from "../src/images/DaNang/018.jpg";
+import DaNang18 from "../src/images/DaNang/019.jpg";
+import DaNang19 from "../src/images/DaNang/020.jpg";
+import DaNang20 from "../src/images/DaNang/021.jpg";
+import DaNang21 from "../src/images/DaNang/022.jpg";
+import DaNang22 from "../src/images/DaNang/023.jpg";
+import DaNang23 from "../src/images/DaNang/024.jpg";
+import DaNang24 from "../src/images/DaNang/025.jpg";
+import DaNang25 from "../src/images/DaNang/026.jpg";
+import DaNang26 from "../src/images/DaNang/027.jpg";
+
 
 import HanoiTitlePhoto from "../src/images/ChosenTripHomeImages/hanoi.jpg";
-import Hanoi1 from "../src/images/Hanoi/000039.jpg";
-import Hanoi2 from "../src/images/Hanoi/000041.jpg";
-import Hanoi3 from "../src/images/Hanoi/000042.jpg";
-import Hanoi4 from "../src/images/Hanoi/000043.jpg";
-import Hanoi5 from "../src/images/Hanoi/000044.jpg";
-import Hanoi6 from "../src/images/Hanoi/000045.jpg";
-import Hanoi7 from "../src/images/Hanoi/000046.jpg";
-import Hanoi8 from "../src/images/Hanoi/000047.jpg";
-import Hanoi9 from "../src/images/Hanoi/000048.jpg";
-import Hanoi10 from "../src/images/Hanoi/000049.jpg";
-import Hanoi11 from "../src/images/Hanoi/000050.jpg";
-import Hanoi12 from "../src/images/Hanoi/000051.jpg";
-import Hanoi13 from "../src/images/Hanoi/000052.jpg";
-import Hanoi14 from "../src/images/Hanoi/000053.jpg";
-import Hanoi15 from "../src/images/Hanoi/000054.jpg";
-import Hanoi16 from "../src/images/Hanoi/000055.jpg";
-import Hanoi17 from "../src/images/Hanoi/000057.jpg";
-import Hanoi18 from "../src/images/Hanoi/000058.jpg";
-import Hanoi19 from "../src/images/Hanoi/000059.jpg";
-import Hanoi20 from "../src/images/Hanoi/000060.jpg";
+import Hanoi1 from "../src/images/Hanoi/001.jpg";
+import Hanoi2 from "../src/images/Hanoi/002.jpg";
+import Hanoi3 from "../src/images/Hanoi/003.jpg";
+import Hanoi4 from "../src/images/Hanoi/004.jpg";
+import Hanoi5 from "../src/images/Hanoi/005.jpg";
+import Hanoi6 from "../src/images/Hanoi/006.jpg";
+import Hanoi7 from "../src/images/Hanoi/007.jpg";
+import Hanoi8 from "../src/images/Hanoi/008.jpg";
+import Hanoi9 from "../src/images/Hanoi/009.jpg";
+import Hanoi10 from "../src/images/Hanoi/010.jpg";
+import Hanoi11 from "../src/images/Hanoi/011.jpg";
+import Hanoi12 from "../src/images/Hanoi/012.jpg";
+import Hanoi13 from "../src/images/Hanoi/013.jpg";
+import Hanoi14 from "../src/images/Hanoi/014.jpg";
+import Hanoi15 from "../src/images/Hanoi/015.jpg";
+import Hanoi16 from "../src/images/Hanoi/016.jpg";
+import Hanoi17 from "../src/images/Hanoi/017.jpg";
+import Hanoi18 from "../src/images/Hanoi/018.jpg";
+import Hanoi19 from "../src/images/Hanoi/019.jpg";
+import Hanoi20 from "../src/images/Hanoi/020.jpg";
 
 import SCTitlePhoto from "../src/images/ChosenTripHomeImages/southCarolina.jpg";
 import SC1 from "../src/images/SouthCarolina/001.jpg";
@@ -173,8 +173,8 @@ export var allPhotos = [
     datesMobile: "july 2022",
     summary:
       "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
-    cameraTitle: "KYOCERA ZOOMTEC 80",
-    filmTitle: "FUJI SUPERIA 400",
+    cameraTitle: "kyocera zoomtec 80",
+    filmTitle: "fuji superia 400",
     camera: KyoceraZoomtec80,
     film: FujiSuperia400,
     titlePhoto: SCTitlePhoto,
@@ -345,13 +345,13 @@ export var allPhotos = [
   {
     id: 1,
     destination: "NHA TRANG, SINGAPORE, HOME",
-    destinationMobile: "singapore",
+    destinationMobile: "nha trang",
     dates: "JUNE 8TH - JUNE 15TH",
     datesMobile: "june 2022",
     summary:
       "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
-    cameraTitle: "KYOCERA ZOOMTEC 80",
-    filmTitle: "FUJI SUPERIA 400",
+    cameraTitle: "kyocera zoomtex 80",
+    filmTitle: "fuji superia 400",
     camera: KyoceraZoomtec80,
     film: FujiSuperia400,
     blockPhoto: nha_trangBlock,
@@ -572,8 +572,8 @@ export var allPhotos = [
     datesMobile: "march 2022",
     summary:
       "Pu Luong is one of my favorite getaways in Vietnam. Not many people know about it, so if you travel on the right weekend, you have the winding mountain roads all to yourself. Don't be fooled by the bad photos, the waterfalls are much more stunning in person.",
-    cameraTitle: "KYOCERA ZOOMTEC 80",
-    filmTitle: "KODAK GOLD 200",
+    cameraTitle: "kyocera zoomtec 80",
+    filmTitle: "kodak gold 200",
     camera: KyoceraZoomtec80,
     film: KodakGold200,
     blockPhoto: pu_luongBlock,
@@ -684,8 +684,8 @@ export var allPhotos = [
     datesMobile: "february 2022",
     summary:
       "These photos are from a Tet holiday trip to Da Nang and Hoi an. Not a lot of beach action in Da Nang due to the crummy weather, but plenty of exploring and lots of good pictures.",
-    cameraTitle: "CANON AUTOBOY LUNA XL",
-    filmTitle: "KODAK GOLD 200",
+    cameraTitle: "canon autoboy luna xl",
+    filmTitle: "kodak gold 200",
     camera: CanonAutoboy,
     film: KodakGold200,
     blockPhoto: da_nangBlock,
@@ -821,11 +821,7 @@ export var allPhotos = [
         width: 1,
         height: 1,
       },
-      {
-        src: DaNang27,
-        width: 4,
-        height: 3,
-      },
+      
     ],
   },
   {
@@ -836,8 +832,8 @@ export var allPhotos = [
     datesMobile: "january 2022",
     summary:
       "These photos were taken at various places around Hanoi during a weekend of exploration. This was the first roll of film I had purchased in quite some time, and this marks the time that I got back into photography.",
-    cameraTitle: "CANON AUTOBOY LUNA XL",
-    filmTitle: "FUJI SUPERIA 400",
+    cameraTitle: "canon autoboy luna xl",
+    filmTitle: "fuji superia 400",
     camera: CanonAutoboy,
     film: FujiSuperia400,
     blockPhoto: hanoiBlock,

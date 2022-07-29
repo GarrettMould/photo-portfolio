@@ -1,5 +1,7 @@
 import Media from "react-media";
 
+import {  Link } from "react-router-dom";
+
 import { Padding } from "../components/styles/Container.styles";
 
 import {
@@ -15,23 +17,31 @@ import { allPhotos } from "../Photos";
 const TripsSection = (props) => {
   const mappedBlockPhotos = allPhotos.map((trip, i) => {
     return (
+      
       <GridColumn size="3">
-        <TripTitle fontSize="90%" fontWeight="500" paddingBottom="1%">
-          {trip.destinationMobile} &nbsp;<span>{trip.datesMobile}</span>
-        </TripTitle>
-        <Image src={trip.blockPhoto}></Image>
+        <Link style={{ textDecoration: 'none'}} to="/SelectedTrip">
+          <TripTitle fontSize="90%" fontWeight="500" paddingBottom="1%">
+            {trip.destinationMobile} &nbsp;<span>{trip.datesMobile}</span>
+          </TripTitle>
+          <Image src={trip.blockPhoto}></Image>
+        </Link>
       </GridColumn>
+      
     );
   });
 
   const mappedBlockPhotosMobile = allPhotos.map((trip, i) => {
     return (
+     
       <GridColumn size="12">
-        <TripTitle fontSize="90%" fontWeight="500" paddingBottom="1%">
-          {trip.destinationMobile} 	&nbsp; <span>{trip.datesMobile}</span>
-        </TripTitle>
-        <Image src={trip.blockPhoto}></Image>
+        <Link style={{ textDecoration: 'none'}} to="/SelectedTrip">
+          <TripTitle fontSize="90%" fontWeight="500" paddingBottom="1%">
+            {trip.destinationMobile} 	&nbsp; <span>{trip.datesMobile}</span>
+          </TripTitle>
+          <Image src={trip.blockPhoto}></Image>
+        </Link>
       </GridColumn>
+      
     );
   });
   return (

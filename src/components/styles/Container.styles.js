@@ -23,8 +23,14 @@ height: 100%;
 
 export const Padding = styled.div.attrs((props) => ({
   top: props.top,
+  right: props.right, 
+  bottom: props.bottom, 
+  left: props.left,
 }))`
-  padding-top: ${(props) => props.top}
+  padding-top: ${(props) => props.top};
+  padding-right: ${(props) => props.right};
+  padding-bottom: ${(props) => props.bottom};
+  padding-left: ${(props) => props.left};
 `
 
 export const BasicContainer = styled.div`

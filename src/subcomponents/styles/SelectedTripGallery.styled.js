@@ -5,7 +5,7 @@ export const NewGridContainer = styled.div`
   display: grid; 
   padding-top: 50px;
   grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: 90px;
+  grid-auto-rows: 80px;
 `
 
 export const GridItem= styled.div.attrs((props) => ({ 

@@ -19,5 +19,5 @@ export const TripTitle = styled.div.attrs((props) => ({
 `;
 
 export const Image = styled.img`
-  max-width: 95%;
+  max-width: 100%;
 `;
