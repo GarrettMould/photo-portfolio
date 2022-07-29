@@ -1,0 +1,46 @@
+@font-face {
+  font-family: WalsheimLight;
+  src: url(../public/fonts/GTWalsheimPro-Light.woff);
+}
+
+@font-face {
+  font-family: WalsheimRegular;
+  src: url(../public/fonts/GTWalsheimPro-Regular.woff);
+}
+
+@font-face {
+  font-family: WalsheimThin;
+  src: url(../public/fonts/GTWalsheimPro-Thin.woff);
+}
+
+
+
+* {
+  font-family: WalsheimLight;
+  
+  color: #121212;
+}
+
+*::selection {
+  background: #fff01f;
+  color: #121212;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: black;
+}
+
+a:hover,
+a:visited,
+a:active {
+  color: black;
+}
+
+button {
+  outline: none;
+  border: none;
+}
