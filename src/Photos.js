@@ -66,6 +66,7 @@ import NhaTrang38 from "../src/images/NhaTrang/037.JPG";
 import NhaTrang39 from "../src/images/NhaTrang/038.JPG";
 import NhaTrang40 from "../src/images/NhaTrang/039.jpg";
 import NhaTrang41 from "../src/images/NhaTrang/040.jpg";
+import NhaTrang42 from "../src/images/NhaTrang/041.jpg";
 
 import DaNangTitlePhoto from "../src/images/ChosenTripHomeImages/daNang.jpg";
 import DaNang1 from "../src/images/DaNang/001.jpg";
@@ -117,6 +118,7 @@ import Hanoi17 from "../src/images/Hanoi/017.jpg";
 import Hanoi18 from "../src/images/Hanoi/018.jpg";
 import Hanoi19 from "../src/images/Hanoi/019.jpg";
 import Hanoi20 from "../src/images/Hanoi/020.jpg";
+import Hanoi21 from "../src/images/Hanoi/021.jpg";
 
 import SCTitlePhoto from "../src/images/ChosenTripHomeImages/southCarolina.jpg";
 import SC1 from "../src/images/SouthCarolina/001.jpg";
@@ -562,6 +564,11 @@ export var allPhotos = [
         width: 4,
         height: 3,
       },
+      {
+        src: NhaTrang42,
+        width: 4,
+        height: 3,
+      },
     ],
   },
   {
@@ -936,6 +943,11 @@ export var allPhotos = [
       },
       {
         src: Hanoi20,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: Hanoi21,
         width: 1,
         height: 1,
       },

@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
-
-export const NewGridContainer = styled.div`
+export const PageContainer = styled.div`
+  position:relative; 
+`
+export const NewGridContainer = styled.div.attrs((props) => ({
+  opacity: props.opacity,
+}))`
+  
+  opacity: ${(props) => props.opacity};
   display: grid; 
   padding-top: 50px;
   grid-template-columns: repeat(8, 1fr);
@@ -33,5 +39,18 @@ padding-left: 10px;
 export const Image = styled.img.attrs((props) => ({
     maxWidth: props.maxWidth,
 }))`
-    max-width: ${(props) => props.maxWidth}
+    max-width: ${(props) => props.maxWidth};
+`
+
+export const Modal = styled.div`
+position: fixed;
+z-index: 999;  
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: auto;
+    color: black; 
+    background-color: black;
 `

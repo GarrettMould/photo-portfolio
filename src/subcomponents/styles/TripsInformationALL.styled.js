@@ -18,6 +18,14 @@ export const TripTitle = styled.div.attrs((props) => ({
   }
 `;
 
+export const CameraDetails = styled.div`
+  font-family: "WalsheimLight";
+  color: grey;
+  font-size: 90%;
+  font-weight: 500;
+  padding-bottom: 0%;
+  `
+
 export const Image = styled.img`
   max-width: 100%;
 `;

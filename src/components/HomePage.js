@@ -12,7 +12,7 @@ const HomePage = (props) => {
         <>
     <Padding top="15%" left="10px" right="10px">
     <MainMenuSection></MainMenuSection>
-    <TripsSection></TripsSection>
+    <TripsSection handleTripSelect={props.handleTripSelect}></TripsSection>
     </Padding>
     </>)
 } 

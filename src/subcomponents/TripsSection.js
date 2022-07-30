@@ -19,11 +19,11 @@ const TripsSection = (props) => {
     return (
       
       <GridColumn size="3">
-        <Link style={{ textDecoration: 'none'}} to="/SelectedTrip">
-          <TripTitle fontSize="90%" fontWeight="500" paddingBottom="1%">
+        <Link style={{ textDecoration: 'none'}} to="/SelectedTrip" onClick={() => props.handleTripSelect(i)}>
+          <TripTitle  key={i} fontSize="90%" fontWeight="500" paddingBottom="1%">
             {trip.destinationMobile} &nbsp;<span>{trip.datesMobile}</span>
           </TripTitle>
-          <Image src={trip.blockPhoto}></Image>
+          <Image  src={trip.blockPhoto}></Image>
         </Link>
       </GridColumn>
       
@@ -34,11 +34,11 @@ const TripsSection = (props) => {
     return (
      
       <GridColumn size="12">
-        <Link style={{ textDecoration: 'none'}} to="/SelectedTrip">
+        <Link style={{ textDecoration: 'none'}} to="/SelectedTrip" onClick={() => props.handleTripSelect(i)}>
           <TripTitle fontSize="90%" fontWeight="500" paddingBottom="1%">
             {trip.destinationMobile} 	&nbsp; <span>{trip.datesMobile}</span>
           </TripTitle>
-          <Image src={trip.blockPhoto}></Image>
+          <Image  src={trip.blockPhoto}></Image>
         </Link>
       </GridColumn>
       
