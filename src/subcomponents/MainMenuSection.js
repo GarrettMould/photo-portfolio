@@ -8,7 +8,7 @@ const MainMenuSection = (props) => {
     return (
     <>
     <NavBarNew></NavBarNew>
-    <PhotoCarousel></PhotoCarousel>
+    {props.isMobile ? <PhotoCarousel isMobile={props.isMobile}></PhotoCarousel> : <></>}
     </>
     )
     

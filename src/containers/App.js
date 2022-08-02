@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { Routes, Route, Link } from "react-router-dom";
 
@@ -24,8 +24,29 @@ const App = (props) => {
   const [tripIndex, setTripIndex] = useState(0)
   const [modalOpen, setModalOpen] = useState(false);
   const [modalSource, setModalSource] = useState(null);
+  const [deviceWidth, setDeviceWidth] = useState(window.innerWidth);
 
-  
+  // Event listener that runs when the window is resized and sets the deviceWidth to the current width
+
+  useEffect(() => {
+    handleWindowSizeChange();
+  });
+
+  const handleWindowSizeChange = () => {
+    setDeviceWidth(window.innerWidth);
+  };
+
+  window.addEventListener("resize", handleWindowSizeChange);
+
+  console.log(deviceWidth);
+
+  // Variable that returns true if device width is less than 500 (use this for mobile styling)
+
+  const isMobile = deviceWidth <= 500;
+
+  console.log(isMobile);
+
+   
   console.log(tripIndex)
   console.log(modalOpen)
   
@@ -48,7 +69,7 @@ const App = (props) => {
     <StyledContainer>
       <HeaderNew closeModal={closeModal}></HeaderNew>
       <Routes>
-        <Route path="/" element={<HomePage tripIndex={tripIndex} handleTripSelect={handleTripSelect}></HomePage>}/>
+        <Route path="/" element={<HomePage tripIndex={tripIndex} handleTripSelect={handleTripSelect} isMobile={isMobile}></HomePage>}/>
         <Route path="/SelectedTrip" element={<SelectedTrip tripIndex={tripIndex} modalOpen={modalOpen} handleImageSelect={handleImageSelect} modalSource={modalSource}></SelectedTrip>}/>
       </Routes>
       

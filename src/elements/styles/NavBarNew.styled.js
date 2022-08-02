@@ -1,22 +1,33 @@
 import styled from "styled-components";
 
 export const StyledNavBar = styled.div`
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  
+  a {
+    padding-bottom: 5%;
+    text-decoration: none;
+  }
+
+  li {
+    font-size: 110%;
+    list-style: none;
+  }
+
+
+  li:hover { 
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 599px) {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  align-items: center;
-
-  
-
-  a {
-    text-decoration: none;
-  }
-
-  li {
+    li {
     font-size: 90%;
-    list-style: none;
 
     
   }
@@ -30,10 +41,10 @@ export const StyledNavBar = styled.div`
     transition: width 0.3s;
   }
 
-  li:hover::after {
-    width: 100%;
+  a { 
+    padding-bottom: 2%;
   }
-  @media only screen and (max-width: 599px) {
+
     li:active::after {
       width: 100%;
     }

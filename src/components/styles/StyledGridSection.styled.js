@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
-export const GridContainer = styled.div`
+export const GridContainer = styled.div.attrs((props) => ({ 
+  width: props.width,
+  margin: props.margin,
+}))`
+
+  width: ${(props) => props.width};
   display: grid;
-  margin: 5% 0% 0% 0%;
+  margin: ${(props) => props.margin};
   gap: 1em;
 
   @media only screen and (max-width: 599px) {
