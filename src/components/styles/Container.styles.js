@@ -11,7 +11,6 @@ export const Container = styled.div`
 export const StyledContainer = styled.div`
 display: flex; 
 flex-direction: column;
-height: 100%;
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;

@@ -73,7 +73,8 @@ const App = (props) => {
         <Route path="/SelectedTrip" element={<SelectedTrip tripIndex={tripIndex} modalOpen={modalOpen} handleImageSelect={handleImageSelect} modalSource={modalSource} isMobile={isMobile}></SelectedTrip>}/>
       </Routes>
       
-      {/*<HomePage></HomePage>*/}
+      
+      
         
       
       

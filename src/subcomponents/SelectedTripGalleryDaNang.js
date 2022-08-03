@@ -12,7 +12,7 @@ const SelectedTripGalleryDaNang = (props) => {
     <PageContainer>
         {props.modalOpen ? <Modal><Image maxWidth="100%" src={props.modalSource}></Image></Modal> : <div></div> }
     <NewGridContainer gridAutoRows={props.isMobile ? "80px" : "250px"} opacity={props.modalOpen ? "70%" : "100%"}>
-        <TripDetailsCell><SelectedTripDetails tripIndex={props.tripIndex}></SelectedTripDetails></TripDetailsCell>
+        <TripDetailsCell><SelectedTripDetails tripIndex={props.tripIndex} isMobile={props.isMobile}></SelectedTripDetails></TripDetailsCell>
         <GridItem gridColumnStart={6}  gridColumnEnd={8} gridRowStart={1} ><Image maxWidth="100%" src={photos[3].src} onClick={props.handleImageSelect}></Image></GridItem> 
         <GridItem gridColumnStart={1} gridColumnEnd={5} gridRowStart={4} ><Image maxWidth="100%" src={photos[11].src} onClick={props.handleImageSelect}></Image></GridItem> 
         <GridItem gridColumnStart={1} gridColumnEnd={2} gridRowStart={7} ><Image maxWidth="100%" src={photos[23].src} onClick={props.handleImageSelect}></Image></GridItem>
