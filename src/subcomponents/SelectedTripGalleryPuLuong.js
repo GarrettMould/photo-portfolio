@@ -11,7 +11,7 @@ const SelectedTripGalleryPuLuong = (props) => {
     return (
     <PageContainer>
         {props.modalOpen ? <Modal><Image maxWidth="100%" src={props.modalSource}></Image></Modal> : <div></div> }
-    <NewGridContainer opacity={props.modalOpen ? "70%" : "100%"}>
+    <NewGridContainer gridAutoRows={props.isMobile ? "80px" : "250px"} opacity={props.modalOpen ? "70%" : "100%"}>
         <TripDetailsCell><SelectedTripDetails tripIndex={props.tripIndex}></SelectedTripDetails></TripDetailsCell>
         <GridItem gridColumnStart={6}  gridColumnEnd={8} gridRowStart={1} ><Image maxWidth="100%" src={photos[7].src} onClick={props.handleImageSelect}></Image></GridItem> 
         <GridItem gridColumnStart={1} gridColumnEnd={5} gridRowStart={4} ><Image maxWidth="100%" src={photos[11].src} onClick={props.handleImageSelect}></Image></GridItem> 

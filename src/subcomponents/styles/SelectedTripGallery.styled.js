@@ -5,13 +5,14 @@ export const PageContainer = styled.div`
 `
 export const NewGridContainer = styled.div.attrs((props) => ({
   opacity: props.opacity,
+  gridAutoRows: props.gridAutoRows,
 }))`
   
   opacity: ${(props) => props.opacity};
   display: grid; 
   padding-top: 50px;
   grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: 80px;
+  grid-auto-rows: ${(props) => props.gridAutoRows};
 `
 
 export const GridItem= styled.div.attrs((props) => ({ 

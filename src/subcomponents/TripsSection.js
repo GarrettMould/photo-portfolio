@@ -20,7 +20,7 @@ const TripsSection = (props) => {
       
       <GridColumn size={props.isMobile ? "12" : "6"}>
         <Link style={{ textDecoration: 'none'}} to="/SelectedTrip" onClick={() => props.handleTripSelect(i)}>
-          <TripTitle  key={i} fontSize="90%" fontWeight="500" paddingBottom="1%">
+          <TripTitle  key={i} fontSize={props.isMobile ? "90%" : "110%"} fontWeight="500" paddingBottom="1%">
             {trip.destinationMobile} &nbsp;<span>{trip.datesMobile}</span>
           </TripTitle>
           <Image  src={trip.blockPhoto}></Image>
@@ -36,7 +36,7 @@ const TripsSection = (props) => {
           
           <>
           <Padding top="10%"></Padding>
-          <GridContainer width={props.isMobile ? "100%" : "100%"} margin={props.isMobile ? "5% 0% 0% 0%" : "0%"}>
+          <GridContainer width="100%" margin={props.isMobile ? "5% 0% 0% 0%" : "0%"}>
             <GridRow>{mappedBlockPhotos}</GridRow>
           </GridContainer>
           </>

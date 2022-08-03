@@ -18,10 +18,12 @@ export const TripTitle = styled.div.attrs((props) => ({
   }
 `;
 
-export const CameraDetails = styled.div`
+export const CameraDetails = styled.div.attrs((props) => ({
+  fontSize: props.fontSize,
+}))`
   font-family: "WalsheimLight";
   color: grey;
-  font-size: 90%;
+  font-size: ${(props) => props.fontSize};
   font-weight: 500;
   padding-bottom: 0%;
   `

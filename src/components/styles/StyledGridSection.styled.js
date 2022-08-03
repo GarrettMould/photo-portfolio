@@ -18,7 +18,7 @@ export const GridContainer = styled.div.attrs((props) => ({
 export const GridRow = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 1%;
+  gap: 2%;
 
   @media only screen and (max-width: 599px) {
     gap: 3%;

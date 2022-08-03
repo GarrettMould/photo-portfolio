@@ -19,15 +19,15 @@ const SelectedTrip = (props) => {
     var tripGallery; 
 
     if (props.tripIndex === 0) { 
-        tripGallery = <SelectedTripGallery handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGallery>
+        tripGallery = <SelectedTripGallery  isMobile={props.isMobile} handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGallery>
     } else if (props.tripIndex === 1)  { 
-        tripGallery = <SelectedTripGalleryNhaTrang handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryNhaTrang>
+        tripGallery = <SelectedTripGalleryNhaTrang isMobile={props.isMobile} handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryNhaTrang>
     } else if (props.tripIndex === 2) { 
-        tripGallery = <SelectedTripGalleryPuLuong handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryPuLuong>
+        tripGallery = <SelectedTripGalleryPuLuong isMobile={props.isMobile} handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryPuLuong>
     } else if (props.tripIndex === 3) { 
-        tripGallery = <SelectedTripGalleryDaNang handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryDaNang>
+        tripGallery = <SelectedTripGalleryDaNang isMobile={props.isMobile} handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryDaNang>
     } else if (props.tripIndex === 4) { 
-        tripGallery = <SelectedTripGalleryHanoi handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryHanoi>
+        tripGallery = <SelectedTripGalleryHanoi isMobile={props.isMobile} handleImageSelect={props.handleImageSelect} modalOpen={props.modalOpen} tripIndex={props.tripIndex} modalSource={props.modalSource}></SelectedTripGalleryHanoi>
     } 
     return (
         <FlexColumn>
