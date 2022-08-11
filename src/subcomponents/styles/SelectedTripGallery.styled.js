@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
-  position:relative; 
+  position: relative; 
 `
 export const NewGridContainer = styled.div.attrs((props) => ({
   opacity: props.opacity,

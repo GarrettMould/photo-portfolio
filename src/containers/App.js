@@ -66,19 +66,21 @@ const App = (props) => {
   
 
   return (
-    <StyledContainer>
+    <>
       <HeaderNew closeModal={closeModal}></HeaderNew>
       <Routes>
         <Route path="/" element={<HomePage tripIndex={tripIndex} handleTripSelect={handleTripSelect} isMobile={isMobile}></HomePage>}/>
         <Route path="/SelectedTrip" element={<SelectedTrip tripIndex={tripIndex} modalOpen={modalOpen} handleImageSelect={handleImageSelect} modalSource={modalSource} isMobile={isMobile}></SelectedTrip>}/>
       </Routes>
+      <Footer></Footer>
       
       
       
-        
+      
+      </>
       
       
-    </StyledContainer>
+    
   )
 }
 

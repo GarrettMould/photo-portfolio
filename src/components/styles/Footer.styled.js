@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-   position:fixed;
+   padding: 0px 10px;
+   display: flex; 
+   justify-content: space-between;
    left:0px;
    bottom:0px;
-width:100%;
+   width:100%;
    background:#999;
 
 `

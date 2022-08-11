@@ -14,10 +14,8 @@
 }
 
 
-
 * {
   font-family: WalsheimLight;
-  
   color: #121212;
 }
 
@@ -28,6 +26,8 @@
 
 html {
   scroll-behavior: smooth;
+ 
+  
 }
 
 a {

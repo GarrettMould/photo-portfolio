@@ -2,6 +2,8 @@ import { NewGridContainer,  Image,  TripDetailsCell, GridItem, PageContainer, Mo
 
 import SelectedTripDetails from "./SelectedTripDetails";
 
+import { FlexColumn } from "../components/styles/Flex.styles";
+
 import { allPhotos} from "../Photos";
 
 
@@ -9,6 +11,8 @@ const SelectedTripGalleryDaNang = (props) => {
     var photos = allPhotos[3].photos
     
     return (
+        <>
+        <FlexColumn>
     <PageContainer>
         {props.modalOpen ? <Modal><Image maxWidth="100%" src={props.modalSource}></Image></Modal> : <div></div> }
     <NewGridContainer gridAutoRows={props.isMobile ? "80px" : "250px"} opacity={props.modalOpen ? "70%" : "100%"}>
@@ -26,7 +30,11 @@ const SelectedTripGalleryDaNang = (props) => {
         <GridItem gridColumnStart={3} gridColumnEnd={8} gridRowStart={27} ><Image maxWidth="100%" src={photos[18].src} onClick={props.handleImageSelect}></Image></GridItem>
         
     </NewGridContainer>
+    
     </PageContainer>
+    
+    </FlexColumn>
+    </>
         )
 }
 
