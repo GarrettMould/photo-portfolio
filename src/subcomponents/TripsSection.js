@@ -10,6 +10,8 @@ import {
   GridColumn,
 } from "../components/styles/StyledGridSection.styled";
 
+import { NewGridContainer } from "./styles/SelectedTripGallery.styled";
+
 import { TripTitle, Image } from "./styles/TripsInformationALL.styled";
 
 import { allPhotos } from "../Photos";

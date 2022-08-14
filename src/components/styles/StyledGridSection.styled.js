@@ -10,6 +10,7 @@ export const GridContainer = styled.div.attrs((props) => ({
   margin: ${(props) => props.margin};
   gap: 1em;
 
+
   @media only screen and (max-width: 599px) {
     gap: 0.25%;
   }
@@ -60,7 +61,7 @@ export const TextBox = styled.div`
 export const NewGridContainer = styled.div`
   display: grid; 
   grid-template-columns: [line1] 40px [line2] 50px [line3] auto [line4] 50px [line5] 40px [end];
-  grid-template-rows: [row1] 25% [row2] 100px [row3] auto [end];
+  grid-template-rows: auto 1fr auto;
 `
 
 export const NewGridItem = styled.div.attrs((props) => ({ 

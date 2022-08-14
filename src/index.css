@@ -24,9 +24,8 @@
   color: #121212;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
- 
   
 }
 

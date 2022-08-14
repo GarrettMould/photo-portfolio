@@ -12,7 +12,6 @@ export const NewGridContainer = styled.div.attrs((props) => ({
   display: grid; 
   padding-top: 50px;
   grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: ${(props) => props.gridAutoRows};
 `
 
 export const GridItem= styled.div.attrs((props) => ({ 
@@ -20,11 +19,17 @@ export const GridItem= styled.div.attrs((props) => ({
   gridColumnEnd: props.gridColumnEnd, 
   gridRowStart: props.gridRowStart, 
   gridRowEnd: props.gridRowEnd,
+  
 }))`
 grid-column-start: ${(props) => props.gridColumnStart};
   grid-column-end: span ${(props) => props.gridColumnEnd};
   grid-row-start: ${(props) => props.gridRowStart};
   grid-row-end: span ${(props) => props.gridRowEnd};
+  margin-bottom: 6em;
+
+  @media only screen and (max-width: 599px) {
+    margin-bottom: 4rem;
+  }
 
 
 `
