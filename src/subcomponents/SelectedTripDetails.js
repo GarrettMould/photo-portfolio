@@ -9,10 +9,10 @@ const SelectedTripDetails = (props) => {
     return (
         
         <FlexColumn>
-            <TripTitle lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "450%"} fontWeight="500" paddingBottom="0%">{allPhotos[tripIndex].destinationMobile}</TripTitle>
-            <TripTitle lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "450%"} fontWeight="500" paddingBottom="0%">{allPhotos[tripIndex].datesMobile}</TripTitle>
-            <CameraDetails lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "450%"}>{allPhotos[tripIndex].cameraTitle}</CameraDetails>
-            <CameraDetails lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "450%"}>{allPhotos[tripIndex].filmTitle}</CameraDetails>
+            <TripTitle lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "400%"} fontWeight="500" paddingBottom="0%">{allPhotos[tripIndex].destinationMobile}</TripTitle>
+            <TripTitle lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "400%"} fontWeight="500" paddingBottom="0%">{allPhotos[tripIndex].datesMobile}</TripTitle>
+            <CameraDetails lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "400%"}>{allPhotos[tripIndex].cameraTitle}</CameraDetails>
+            <CameraDetails lineHeight={props.isMobile ? "150%" : "120%"} fontSize={props.isMobile ? "90%" : "400%"}>{allPhotos[tripIndex].filmTitle}</CameraDetails>
             
         </FlexColumn>
         
