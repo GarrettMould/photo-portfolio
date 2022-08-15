@@ -1,9 +1,13 @@
+
 import { FlexRowSpaceBetween } from "./styles/Flex.styles";
 
-import { FooterItem, FooterContainer } from "./styles/Footer.styled";
+import { FooterItem, FooterContainer, ContactTitle, CopyrightContainer, Copyright, ContactLinksContainer } from "./styles/Footer.styled";
 const Footer = (props) => { 
     return (
-        <FooterContainer><FooterItem>facebook</FooterItem><FooterItem>instagram</FooterItem><FooterItem>github</FooterItem></FooterContainer>
+       <FooterContainer>
+        <ContactLinksContainer><FooterItem><a href="#">facebook</a></FooterItem><FooterItem><a href="#">instagram</a></FooterItem><FooterItem><a href="#">github</a></FooterItem></ContactLinksContainer>
+        <CopyrightContainer><Copyright> <span>&copy;</span>&nbsp;2022</Copyright></CopyrightContainer>
+       </FooterContainer> 
     )
 }
 

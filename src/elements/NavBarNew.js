@@ -4,7 +4,7 @@ const NavBarNew = (props) => {
     return (
       <StyledNavBar>
         <a href="#">
-        <li>photos</li>
+        <li>cameras</li>
       </a>
       <a href="#">
         <li>trips</li>
