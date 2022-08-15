@@ -1,30 +1,30 @@
 import styled from "styled-components";
 
 export const TripTitle = styled.div.attrs((props) => ({
+  lineHeight: props.lineHeight,
   fontSize: props.fontSize,
   fontWeight: props.fontWeight,
   textAlign: props.textAlign,
   paddingBottom: props.paddingBottom,
 }))`
-  font-family: "WalsheimRegular";
+  line-height: ${(props) => props.lineHeight};
+  font-family: "WalsheimThin";
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
   text-align: ${(props) => props.textAlign};
   padding-bottom: ${(props) => props.paddingBottom};
   
-
-  span { 
-    color: grey;
-  }
 `;
 
 export const CameraDetails = styled.div.attrs((props) => ({
+  lineHeight: props.lineHeight,
   fontSize: props.fontSize,
 }))`
-  font-family: "WalsheimLight";
+  line-height: ${(props) => props.lineHeight};
+  font-family: "WalsheimThin";
   color: grey;
   font-size: ${(props) => props.fontSize};
-  font-weight: 500;
+  font-weight: 400;
   padding-bottom: 0%;
   `
 

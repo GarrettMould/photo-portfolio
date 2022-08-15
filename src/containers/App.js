@@ -4,6 +4,8 @@ import { Routes, Route, Link } from "react-router-dom";
 
 import { StyledContainer } from '../components/styles/Container.styles';
 
+import CloseModalButton from "../elements/CloseModalButton";
+
 import HeaderNew from '../components/HeaderNew';
 
 import HomePage from '../components/HomePage';
@@ -68,6 +70,7 @@ const App = (props) => {
   return (
     <>
     <StyledContainer>
+      {modalOpen ? <CloseModalButton closeModal={closeModal} isMobile={isMobile}></CloseModalButton> : null}
       <HeaderNew closeModal={closeModal}></HeaderNew>
       <Routes>
         <Route path="/" element={<HomePage tripIndex={tripIndex} handleTripSelect={handleTripSelect} isMobile={isMobile}></HomePage>}/>

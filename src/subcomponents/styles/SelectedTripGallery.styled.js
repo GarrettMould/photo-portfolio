@@ -49,14 +49,19 @@ export const Image = styled.img.attrs((props) => ({
 `
 
 export const Modal = styled.div`
-position: fixed;
-z-index: 999;  
+    position: fixed;
+    z-index: 999;  
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 100vw;
+    width: auto;
     height: auto;
     color: black; 
     background-color: black;
+
+    @media only screen and (max-width: 599px) {
+    width: 100vw;
+  }
+
 `
