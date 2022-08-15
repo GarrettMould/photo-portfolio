@@ -5,6 +5,8 @@ import SelectedTripDetails from "./SelectedTripDetails";
 import { allPhotos } from "../Photos";
 
 
+
+
 const SelectedTripGalleryPuLuong = (props) => { 
     var photos = allPhotos[2].photos;
     
