@@ -9,7 +9,7 @@ font-size: 200%;
 @media only screen and (max-width: 599px) {
     padding-top: 10px;
     padding-left: 10px;
-    font-size: 120%;
+    font-size: 140%;
   }
 
 `
@@ -21,7 +21,7 @@ color: grey;
 
 @media only screen and (max-width: 599px) {
     padding-left: 10px;
-    font-size: 80%; 
+    font-size: 100%; 
     color: grey; 
   }
 `
