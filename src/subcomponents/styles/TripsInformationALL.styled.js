@@ -7,8 +7,8 @@ export const TripTitle = styled.div.attrs((props) => ({
   textAlign: props.textAlign,
   paddingBottom: props.paddingBottom,
 }))`
+  width: 90%;
   line-height: ${(props) => props.lineHeight};
-  font-family: "WalsheimThin";
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
   text-align: ${(props) => props.textAlign};
@@ -20,6 +20,7 @@ export const CameraDetails = styled.div.attrs((props) => ({
   lineHeight: props.lineHeight,
   fontSize: props.fontSize,
 }))`
+  width: 75%;
   line-height: ${(props) => props.lineHeight};
   font-family: "WalsheimThin";
   color: grey;
@@ -31,3 +32,13 @@ export const CameraDetails = styled.div.attrs((props) => ({
 export const Image = styled.img`
   max-width: 100%;
 `;
+
+export const FilmDetails = styled.div`
+    width: 75%;
+    line-height: ${(props) => props.lineHeight};
+    font-family: "WalsheimThin";
+    color: #D3D3D3;
+    font-size: ${(props) => props.fontSize};
+    font-weight: 400;
+    padding-bottom: 0%;
+`

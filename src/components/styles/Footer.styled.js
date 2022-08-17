@@ -23,7 +23,7 @@ export const ContactTitle = styled.div`
 `
 export const FooterItem = styled.div`
 font-size: 110%; 
-padding-bottom: 5%;
+padding-bottom: 3%;
 
 a {
    

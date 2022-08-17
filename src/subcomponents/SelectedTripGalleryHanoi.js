@@ -13,7 +13,7 @@ const SelectedTripGalleryHanoi = (props) => {
         {props.modalOpen ? <Modal><Image maxWidth="100%" src={props.modalSource}></Image></Modal> : <div></div> }
     <NewGridContainer gap={props.isMobile ? "1em" : "2em"} opacity={props.modalOpen ? "70%" : "100%"}>
         <TripDetailsCell><SelectedTripDetails tripIndex={props.tripIndex} isMobile={props.isMobile}></SelectedTripDetails></TripDetailsCell>
-        <GridItem gridColumnStart={6}  gridColumnEnd={8} gridRowStart={1} ><Image maxWidth="100%" src={photos[8].src} onClick={props.handleImageSelect}></Image></GridItem> 
+        <GridItem gridColumnStart={6}  gridColumnEnd={8} gridRowStart={1} ><Image maxWidth="100%" src={photos[21].src} onClick={props.handleImageSelect}></Image></GridItem> 
         <GridItem gridColumnStart={1} gridColumnEnd={5} gridRowStart={3} ><Image maxWidth="100%" src={photos[20].src} onClick={props.handleImageSelect}></Image></GridItem> 
         <GridItem gridColumnStart={1} gridColumnEnd={2} gridRowStart={6} ><Image maxWidth="100%" src={photos[12].src} onClick={props.handleImageSelect}></Image></GridItem>
         <GridItem gridColumnStart={4} gridColumnEnd={5} gridRowStart={6} ><Image maxWidth="100%" src={photos[5].src} onClick={props.handleImageSelect}></Image></GridItem>

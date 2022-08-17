@@ -6,7 +6,7 @@ export const StyledNavBar = styled.div`
   flex-direction: column;
   
   a {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     text-decoration: none;
   }
 
