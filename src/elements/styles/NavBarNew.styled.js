@@ -18,6 +18,7 @@ export const StyledNavBar = styled.div`
 
   li:hover { 
     text-decoration: underline;
+    color: grey;
   }
 
   @media only screen and (max-width: 599px) {
@@ -25,6 +26,7 @@ export const StyledNavBar = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 
     li {
     font-size: 90%;

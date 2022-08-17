@@ -33,7 +33,7 @@ a {
 
   a:hover { 
     text-decoration: underline;
-    color: black;
+    color: grey;
   }
 
   @media only screen and (max-width: 599px) {

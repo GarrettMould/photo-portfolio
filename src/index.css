@@ -13,9 +13,16 @@
   src: url(../public/fonts/GTWalsheimPro-Thin.woff);
 }
 
+@font-face {
+  font-family: WalsheimBold;
+  src: url(../public/fonts/GTWalsheimPro-Bold.woff);
+}
+
+
+
 
 * {
-  font-family: WalsheimLight;
+  font-family: WalsheimRegular;
   color: #121212;
 }
 
@@ -32,6 +39,7 @@ html, body {
 a {
   color: black;
 }
+
 
 a:hover,
 a:visited,
