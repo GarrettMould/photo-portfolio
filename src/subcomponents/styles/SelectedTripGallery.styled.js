@@ -44,8 +44,13 @@ padding-left: 10px;
 `
 export const Image = styled.img.attrs((props) => ({
     maxWidth: props.maxWidth,
+    cursor: props.cursor,
 }))`
     max-width: ${(props) => props.maxWidth};
+
+    :hover { 
+      cursor: ${(props) => props.cursor};
+    }
 `
 
 export const Modal = styled.div`
