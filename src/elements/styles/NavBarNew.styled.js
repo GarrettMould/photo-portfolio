@@ -72,6 +72,7 @@ export const StyledNavBar = styled.div`
 
 
     li {
+    position: relative;
     font-size: 90%;
 
     
