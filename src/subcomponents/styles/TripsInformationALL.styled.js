@@ -13,6 +13,11 @@ export const TripTitle = styled.div.attrs((props) => ({
   font-weight: ${(props) => props.fontWeight};
   text-align: ${(props) => props.textAlign};
   padding-bottom: ${(props) => props.paddingBottom};
+
+  span { 
+    color: grey;
+    font-family: "WalsheimLight";
+  }
   
 `;
 
