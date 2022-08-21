@@ -12,8 +12,8 @@ export const SiteTitle = styled.div`
      }
 } 
 
-padding-top: 5px;
-padding-left: 5px;
+padding-top: 10px;
+padding-left: 10px;
 font-size: 200%; 
 font-family: "WalsheimRegular";
 animation: fadeInAnimation 0.25s ease-in;
@@ -41,7 +41,7 @@ export const SiteSubTitle = styled.div`
      }
 }  
 
-padding-left: 5px;
+padding-left: 10px;
 font-size: 120%; 
 color: grey; 
 animation: fadeInAnimation 0.25s ease-in;
