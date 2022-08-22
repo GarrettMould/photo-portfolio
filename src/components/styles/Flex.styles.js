@@ -26,3 +26,10 @@ export const FlexRowBetween = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
+
+export const FlexBetween = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
