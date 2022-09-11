@@ -157,69 +157,68 @@ import SC30 from "../src/images/SouthCarolina/030.jpg";
 import SC31 from "../src/images/SouthCarolina/031.jpg";
 import SC32 from "../src/images/SouthCarolina/032.jpg";
 
-import HaGiang1 from "../src/images/HaGiang/001.jpg";
-import HaGiang2 from "../src/images/HaGiang/002.jpg";
-import HaGiang3 from "../src/images/HaGiang/003.jpg";
-import HaGiang4 from "../src/images/HaGiang/004.jpg";
-import HaGiang5 from "../src/images/HaGiang/005.jpg";
-import HaGiang6 from "../src/images/HaGiang/006.jpg";
-import HaGiang7 from "../src/images/HaGiang/007.jpg";
-import HaGiang8 from "../src/images/HaGiang/008.jpg";
-import HaGiang9 from "../src/images/HaGiang/009.jpg";
-import HaGiang10 from "../src/images/HaGiang/010.jpg";
-import HaGiang11 from "../src/images/HaGiang/011.jpg";
-import HaGiang12 from "../src/images/HaGiang/012.jpg";
-import HaGiang13 from "../src/images/HaGiang/013.jpg";
-import HaGiang14 from "../src/images/HaGiang/014.jpg";
-import HaGiang15 from "../src/images/HaGiang/015.jpg";
-import HaGiang16 from "../src/images/HaGiang/016.jpg";
-import HaGiang17 from "../src/images/HaGiang/017.jpg";
-import HaGiang18 from "../src/images/HaGiang/018.jpg";
-import HaGiang19 from "../src/images/HaGiang/019.jpg";
-import HaGiang20 from "../src/images/HaGiang/020.jpg";
-import HaGiang21 from "../src/images/HaGiang/021.jpg";
-import HaGiang22 from "../src/images/HaGiang/022.jpg";
-import HaGiang23 from "../src/images/HaGiang/023.jpg";
-import HaGiang24 from "../src/images/HaGiang/024.jpg";
-import HaGiang25 from "../src/images/HaGiang/025.jpg";
-import HaGiang26 from "../src/images/HaGiang/026.jpg";
-import HaGiang27 from "../src/images/HaGiang/027.jpg";
-import HaGiang28 from "../src/images/HaGiang/028.jpg";
-import HaGiang29 from "../src/images/HaGiang/029.jpg";
-import HaGiang30 from "../src/images/HaGiang/030.jpg";
-import HaGiang31 from "../src/images/HaGiang/031.jpg";
-import HaGiang32 from "../src/images/HaGiang/032.jpg";
-import HaGiang33 from "../src/images/HaGiang/033.jpg";
-import HaGiang34 from "../src/images/HaGiang/034.jpg";
-import HaGiang35 from "../src/images/HaGiang/035.jpg";
-import HaGiang36 from "../src/images/HaGiang/036.jpg";
-import HaGiang37 from "../src/images/HaGiang/037.jpg";
-import HaGiang38 from "../src/images/HaGiang/038.jpg";
-import HaGiang39 from "../src/images/HaGiang/039.jpg";
-import HaGiang40 from "../src/images/HaGiang/040.jpg";
-import HaGiang41 from "../src/images/HaGiang/041.jpg";
-import HaGiang42 from "../src/images/HaGiang/042.jpg";
-import HaGiang43 from "../src/images/HaGiang/043.jpg";
-import HaGiang44 from "../src/images/HaGiang/044.jpg";
-import HaGiang45 from "../src/images/HaGiang/045.jpg";
-import HaGiang46 from "../src/images/HaGiang/046.jpg";
-import HaGiang47 from "../src/images/HaGiang/047.jpg";
-import HaGiang48 from "../src/images/HaGiang/048.jpg";
-import HaGiang49 from "../src/images/HaGiang/049.jpg";
-import HaGiang50 from "../src/images/HaGiang/050.jpg";
-import HaGiang51 from "../src/images/HaGiang/051.jpg";
-import HaGiang52 from "../src/images/HaGiang/052.jpg";
-import HaGiang53 from "../src/images/HaGiang/053.jpg";
-import HaGiang54 from "../src/images/HaGiang/054.jpg";
-import HaGiang55 from "../src/images/HaGiang/055.jpg";
-import HaGiang56 from "../src/images/HaGiang/056.jpg";
-import HaGiang57 from "../src/images/HaGiang/057.jpg";
-import HaGiang58 from "../src/images/HaGiang/058.jpg";
-import HaGiang59 from "../src/images/HaGiang/059.jpg";
-import HaGiang60 from "../src/images/HaGiang/060.jpg";
-import HaGiang61 from "../src/images/HaGiang/061.jpg";
-import HaGiang62 from "../src/images/HaGiang/062.jpg";
-import HaGiang63 from "../src/images/HaGiang/063.jpg";
+import HaGiang1 from "../src/images/HaGiang/001.JPG";
+import HaGiang2 from "../src/images/HaGiang/002.JPG";
+import HaGiang3 from "../src/images/HaGiang/003.JPG";
+import HaGiang4 from "../src/images/HaGiang/004.JPG";
+import HaGiang5 from "../src/images/HaGiang/005.JPG";
+import HaGiang6 from "../src/images/HaGiang/006.JPG";
+import HaGiang7 from "../src/images/HaGiang/007.JPG";
+import HaGiang8 from "../src/images/HaGiang/008.JPG";
+import HaGiang9 from "../src/images/HaGiang/009.JPG";
+import HaGiang10 from "../src/images/HaGiang/010.JPG";
+import HaGiang11 from "../src/images/HaGiang/011.JPG";
+import HaGiang12 from "../src/images/HaGiang/012.JPG";
+import HaGiang13 from "../src/images/HaGiang/013.JPG";
+import HaGiang14 from "../src/images/HaGiang/014.JPG";
+import HaGiang15 from "../src/images/HaGiang/015.JPG";
+import HaGiang16 from "../src/images/HaGiang/016.JPG";
+import HaGiang17 from "../src/images/HaGiang/017.JPG";
+import HaGiang18 from "../src/images/HaGiang/018.JPG";
+import HaGiang19 from "../src/images/HaGiang/019.JPG";
+import HaGiang20 from "../src/images/HaGiang/020.JPG";
+import HaGiang21 from "../src/images/HaGiang/021.JPG";
+import HaGiang22 from "../src/images/HaGiang/022.JPG";
+import HaGiang23 from "../src/images/HaGiang/023.JPG";
+import HaGiang24 from "../src/images/HaGiang/024.JPG";
+import HaGiang25 from "../src/images/HaGiang/025.JPG";
+import HaGiang26 from "../src/images/HaGiang/026.JPG";
+import HaGiang27 from "../src/images/HaGiang/027.JPG";
+import HaGiang28 from "../src/images/HaGiang/028.JPG";
+import HaGiang29 from "../src/images/HaGiang/029.JPG";
+import HaGiang30 from "../src/images/HaGiang/030.JPG";
+import HaGiang31 from "../src/images/HaGiang/031.JPG";
+import HaGiang32 from "../src/images/HaGiang/032.JPG";
+import HaGiang33 from "../src/images/HaGiang/033.JPG";
+import HaGiang34 from "../src/images/HaGiang/034.JPG";
+import HaGiang35 from "../src/images/HaGiang/035.JPG";
+import HaGiang36 from "../src/images/HaGiang/036.JPG";
+import HaGiang37 from "../src/images/HaGiang/037.JPG";
+import HaGiang38 from "../src/images/HaGiang/038.JPG";
+import HaGiang39 from "../src/images/HaGiang/039.JPG";
+import HaGiang40 from "../src/images/HaGiang/040.JPG";
+import HaGiang41 from "../src/images/HaGiang/041.JPG";
+import HaGiang42 from "../src/images/HaGiang/042.JPG";
+import HaGiang43 from "../src/images/HaGiang/043.JPG";
+import HaGiang44 from "../src/images/HaGiang/044.JPG";
+import HaGiang45 from "../src/images/HaGiang/045.JPG";
+import HaGiang46 from "../src/images/HaGiang/046.JPG";
+import HaGiang47 from "../src/images/HaGiang/047.JPG";
+import HaGiang48 from "../src/images/HaGiang/048.JPG";
+import HaGiang49 from "../src/images/HaGiang/049.JPG";
+import HaGiang50 from "../src/images/HaGiang/050.JPG";
+import HaGiang51 from "../src/images/HaGiang/051.JPG";
+import HaGiang52 from "../src/images/HaGiang/052.JPG";
+import HaGiang53 from "../src/images/HaGiang/053.JPG";
+import HaGiang54 from "../src/images/HaGiang/054.JPG";
+import HaGiang55 from "../src/images/HaGiang/055.JPG";
+import HaGiang56 from "../src/images/HaGiang/056.JPG";
+import HaGiang57 from "../src/images/HaGiang/057.JPG";
+import HaGiang58 from "../src/images/HaGiang/058.JPG";
+import HaGiang59 from "../src/images/HaGiang/059.JPG";
+import HaGiang60 from "../src/images/HaGiang/060.JPG";
+import HaGiang61 from "../src/images/HaGiang/061.JPG";
+
 
 
 import hanoiBlock from "../src/images/TripPageBlockPhotos/hanoi.jpg";
@@ -234,9 +233,328 @@ import south_carolinaBlock from "../src/images/TripPageBlockPhotos/south_carolin
 
 import south_carolinaBlock_alt from "../src/images/TripPageBlockPhotos/south_carolina_alt.jpg";
 
+import ha_giangBlock from "../src/images/TripPageBlockPhotos/ha_giang.JPG";
+
 export var allPhotos = [
   {
-    id: 0,
+    id: 0, 
+    destinationMobile: "ha giang", 
+    dates: "september 2022", 
+    cameraTitle: "nikon fm2", 
+    filmTitle: "fuji c100 & kodak gold 200", 
+    titlePhoto: ha_giangBlock, 
+    blockPhoto: ha_giangBlock,
+    photos: [
+      {
+        src: HaGiang1,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang2,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang3,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang4,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang5,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: HaGiang6,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang7,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang8,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang9,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang10,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang11,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang12,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang13,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: HaGiang14,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang15,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang16,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang17,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang18,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang19,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang20,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang21,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang22,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang23,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang24,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: HaGiang25,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang26,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang27,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang28,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang29,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang30,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang31,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang32,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang33,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: HaGiang34,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang35,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang36,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: HaGiang37,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang38,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang39,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang40,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang41,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang42,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang43,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: HaGiang44,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang45,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang46,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang47,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang48,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang49,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang50,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang51,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang52,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang53,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang54,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: HaGiang55,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang56,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang57,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang58,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang59,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang60,
+        width: 4,
+        height: 3,
+      },
+      {
+        src: HaGiang61,
+        width: 4,
+        height: 3,
+      },
+      
+    ]
+  },
+  {
+    id: 1,
     destination: "SOUTH CAROLINA AND HANOI",
     destinationMobile: "south carolina",
     dates: "JULY 1ST - JULY 24TH",
@@ -413,7 +731,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     destination: "NHA TRANG, SINGAPORE, HOME",
     destinationMobile: "nha trang",
     dates: "JUNE 8TH - JUNE 15TH",
@@ -640,7 +958,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     destination: "PU LUONG",
     destinationMobile: "pu luong",
     dates: "MARCH 18TH - MARCH 20TH",
@@ -752,7 +1070,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     destination: "DA NANG & HOI AN",
     destinationMobile: "da nang",
     dates: "FEBRAUARY 2ND - FEBRUARY 5TH",
@@ -905,7 +1223,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     destination: "HANOI",
     destinationMobile: "hanoi",
     dates: "JANUARY 2022",

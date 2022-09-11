@@ -6,7 +6,7 @@ import { allPhotos } from "../Photos";
 
 
 const SelectedTripGalleryHanoi = (props) => { 
-    var photos = allPhotos[4].photos;
+    var photos = allPhotos[5].photos;
     
     return (
     <PageContainer>

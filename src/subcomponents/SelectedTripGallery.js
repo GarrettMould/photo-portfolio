@@ -10,7 +10,7 @@ import { allPhotos } from "../Photos";
 
 
 const SelectedTripGallery = (props) => { 
-    var photos = allPhotos[0].photos;
+    var photos = allPhotos[1].photos;
     console.log(props.modalOpen)
 
     
