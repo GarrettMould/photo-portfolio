@@ -3,6 +3,38 @@ import KodakGold200 from "../src/images/kodak_gold200.png";
 import KyoceraZoomtec80 from "../src/images/kyocera_zoomtec_80.png";
 import FujiSuperia400 from "../src/images/fuji_color_superia_400.png";
 
+import MalaysiaTitlePhoto from "../src/images/ChosenTripHomeImages/malaysia.JPG"
+import Malaysia2 from "../src/images/Malaysia/002.JPG"
+import Malaysia3 from "../src/images/Malaysia/003.JPG"
+import Malaysia4 from "../src/images/Malaysia/004.JPG"
+import Malaysia5 from "../src/images/Malaysia/005.JPG"
+import Malaysia6 from "../src/images/Malaysia/006.JPG"
+import Malaysia7 from "../src/images/Malaysia/007.JPG"
+import Malaysia8 from "../src/images/Malaysia/008.JPG"
+import Malaysia9 from "../src/images/Malaysia/009.JPG"
+import Malaysia10 from "../src/images/Malaysia/010.JPG"
+import Malaysia11 from "../src/images/Malaysia/011.JPG"
+import Malaysia12 from "../src/images/Malaysia/012.JPG"
+import Malaysia13 from "../src/images/Malaysia/013.JPG"
+import Malaysia14 from "../src/images/Malaysia/014.JPG"
+import Malaysia15 from "../src/images/Malaysia/015.JPG"
+import Malaysia16 from "../src/images/Malaysia/016.JPG"
+import Malaysia17 from "../src/images/Malaysia/017.JPG"
+import Malaysia18 from "../src/images/Malaysia/018.JPG"
+import Malaysia19 from "../src/images/Malaysia/019.JPG"
+import Malaysia20 from "../src/images/Malaysia/020.JPG"
+import Malaysia21 from "../src/images/Malaysia/021.JPG"
+import Malaysia22 from "../src/images/Malaysia/022.JPG"
+import Malaysia23 from "../src/images/Malaysia/023.JPG"
+import Malaysia24 from "../src/images/Malaysia/024.JPG"
+import Malaysia25 from "../src/images/Malaysia/025.JPG"
+import Malaysia26 from "../src/images/Malaysia/026.JPG"
+import Malaysia27 from "../src/images/Malaysia/027.JPG"
+import Malaysia28 from "../src/images/Malaysia/028.JPG"
+import Malaysia29 from "../src/images/Malaysia/029.JPG"
+
+
+
 import PuLuongTitlePhoto from "../src/images/ChosenTripHomeImages/puLuong.jpg";
 import PuLuong1 from "../src/images/PuLuong/001.jpg";
 import PuLuong2 from "../src/images/PuLuong/002.jpg";
@@ -235,11 +267,180 @@ import south_carolinaBlock_alt from "../src/images/TripPageBlockPhotos/south_car
 
 import ha_giangBlock from "../src/images/TripPageBlockPhotos/ha_giang.JPG";
 
+import malaysiaBlock from "../src/images/TripPageBlockPhotos/malaysia.JPG"
+
 export var allPhotos = [
+
   {
-    id: 0, 
+    id: 0,
+    destination: "MALAYSIA",
+    destinationMobile: "malaysia",
+    dates: "DECEMBER 24TH - DECEMBER 31ST",
+    datesMobile: "december 2022",
+    summary:
+      "My first trip abroad in Asia since the pandemic. Enjoyed a unique mix of cultures in Penang and a taste of nature in Langkawi.",
+    cameraTitle: "nikon fm2",
+    filmTitle: "kodak gold 200",
+    blockPhoto: malaysiaBlock,
+    titlePhoto: malaysiaBlock,
+    photos: [
+        {
+          src: Malaysia2,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia2,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia3,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia4,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia5,
+          width: 1,
+          height: 1,
+        },
+        {
+          src: Malaysia6,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia7,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia8,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia9,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia10,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia11,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia12,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia13,
+          width: 1,
+          height: 1,
+        },
+        {
+          src: Malaysia14,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia15,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia16,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia17,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia18,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia19,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia20,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia21,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia22,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia23,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia24,
+          width: 1,
+          height: 1,
+        },
+        {
+          src: Malaysia25,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia26,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia27,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia28,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia28,
+          width: 4,
+          height: 3,
+        },
+        {
+          src: Malaysia29,
+          width: 4,
+          height: 3,
+        },
+    ], 
+  },
+  {
+    id: 1, 
     destinationMobile: "ha giang", 
-    dates: "september 2022", 
+    dates: "SEPTEMBER 18TH - SEPTEMBER 23RD", 
+    datesMobile: "september 2022",
     cameraTitle: "nikon fm2", 
     filmTitle: "fuji c100 & kodak gold 200", 
     titlePhoto: ha_giangBlock, 
@@ -554,7 +755,7 @@ export var allPhotos = [
     ]
   },
   {
-    id: 1,
+    id: 2,
     destination: "SOUTH CAROLINA AND HANOI",
     destinationMobile: "south carolina",
     dates: "JULY 1ST - JULY 24TH",
@@ -731,7 +932,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     destination: "NHA TRANG, SINGAPORE, HOME",
     destinationMobile: "nha trang",
     dates: "JUNE 8TH - JUNE 15TH",
@@ -958,7 +1159,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     destination: "PU LUONG",
     destinationMobile: "pu luong",
     dates: "MARCH 18TH - MARCH 20TH",
@@ -1070,7 +1271,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     destination: "DA NANG & HOI AN",
     destinationMobile: "da nang",
     dates: "FEBRAUARY 2ND - FEBRUARY 5TH",
@@ -1223,7 +1424,7 @@ export var allPhotos = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     destination: "HANOI",
     destinationMobile: "hanoi",
     dates: "JANUARY 2022",
