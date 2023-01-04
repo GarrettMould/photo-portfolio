@@ -6,7 +6,7 @@ const Footer = (props) => {
     return (
        <FooterContainer>
         <ContactLinksContainer><FooterItem><a href="#">facebook</a></FooterItem><FooterItem><a href="#">instagram</a></FooterItem><FooterItem><a href="#">github</a></FooterItem></ContactLinksContainer>
-        <CopyrightContainer><Copyright> <span>&copy;</span>&nbsp;2022</Copyright></CopyrightContainer>
+        <CopyrightContainer><Copyright> <span>&copy;</span>&nbsp;2023</Copyright></CopyrightContainer>
        </FooterContainer> 
     )
 }

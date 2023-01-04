@@ -8,7 +8,7 @@ import { allPhotos } from "../Photos";
 
 
 const SelectedTripGalleryPuLuong = (props) => { 
-    var photos = allPhotos[3].photos;
+    var photos = allPhotos[4].photos;
     
     return (
     <PageContainer>

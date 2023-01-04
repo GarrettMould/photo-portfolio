@@ -8,7 +8,8 @@ import { allPhotos} from "../Photos";
 
 
 const SelectedTripGalleryDaNang = (props) => { 
-    var photos = allPhotos[4].photos
+    var photos = allPhotos[5].photos
+    console.log(photos[26])
     
     return (
         <>

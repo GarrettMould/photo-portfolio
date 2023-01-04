@@ -1,7 +1,4 @@
-import CanonAutoboy from "../src/images/canon_autoboy.png";
-import KodakGold200 from "../src/images/kodak_gold200.png";
-import KyoceraZoomtec80 from "../src/images/kyocera_zoomtec_80.png";
-import FujiSuperia400 from "../src/images/fuji_color_superia_400.png";
+
 
 import MalaysiaTitlePhoto from "../src/images/ChosenTripHomeImages/malaysia.JPG"
 import Malaysia2 from "../src/images/Malaysia/002.JPG"
@@ -764,8 +761,6 @@ export var allPhotos = [
       "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
     cameraTitle: "kyocera zoomtec 80",
     filmTitle: "fuji superia 400",
-    camera: KyoceraZoomtec80,
-    film: FujiSuperia400,
     titlePhoto: SCTitlePhoto,
     blockPhoto: south_carolinaBlock,
     photos: [
@@ -941,8 +936,6 @@ export var allPhotos = [
       "This trip included an eventful three-day vacation to Nha Trang, as well as my first trip overseas since before the pandemic. I saw a bit of everything, from beaches, to waterfalls, to the impressive Singaporean architecture. A fantastic trip with plenty of good memories.",
     cameraTitle: "kyocera zoomtex 80",
     filmTitle: "fuji superia 400",
-    camera: KyoceraZoomtec80,
-    film: FujiSuperia400,
     blockPhoto: nha_trangBlock,
     titlePhoto: NhaTrangTitlePhoto,
     photos: [
@@ -1168,8 +1161,6 @@ export var allPhotos = [
       "Pu Luong is one of my favorite getaways in Vietnam. Not many people know about it, so if you travel on the right weekend, you have the winding mountain roads all to yourself. Don't be fooled by the bad photos, the waterfalls are much more stunning in person.",
     cameraTitle: "kyocera zoomtec 80",
     filmTitle: "kodak gold 200",
-    camera: KyoceraZoomtec80,
-    film: KodakGold200,
     blockPhoto: pu_luongBlock,
     titlePhoto: PuLuongTitlePhoto,
     photos: [
@@ -1280,8 +1271,6 @@ export var allPhotos = [
       "These photos are from a Tet holiday trip to Da Nang and Hoi an. Not a lot of beach action in Da Nang due to the crummy weather, but plenty of exploring and lots of good pictures.",
     cameraTitle: "canon autoboy luna xl",
     filmTitle: "kodak gold 200",
-    camera: CanonAutoboy,
-    film: KodakGold200,
     blockPhoto: da_nangBlock,
     titlePhoto: DaNangTitlePhoto,
     photos: [
@@ -1433,8 +1422,6 @@ export var allPhotos = [
       "These photos were taken at various places around Hanoi during a weekend of exploration. This was the first roll of film I had purchased in quite some time, and this marks the time that I got back into photography.",
     cameraTitle: "canon autoboy luna xl",
     filmTitle: "fuji superia 400",
-    camera: CanonAutoboy,
-    film: FujiSuperia400,
     blockPhoto: hanoiBlock,
     titlePhoto: HanoiTitlePhoto,
     photos: [
